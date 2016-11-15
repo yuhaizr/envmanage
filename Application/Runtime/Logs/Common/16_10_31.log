@@ -1,0 +1,26 @@
+[2016-10-31 23:22:11] ::1 /hotel/index.php//Public/upload/20161031/1477927292_722860999.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Public
+
+[2016-10-31 23:22:11] ::1 /hotel/index.php//Public/upload/20161031/1477927292_722860999.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Public
+

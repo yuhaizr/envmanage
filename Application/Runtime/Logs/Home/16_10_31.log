@@ -1,0 +1,802 @@
+[2016-10-31 21:30:01] ::1 /hotel/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.144008s ]
+
+[2016-10-31 21:30:04] ::1 /hotel/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 21:57:12] ::1 /hotel/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 21:57:15] ::1 /hotel/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 21:57:18] ::1 /hotel/index.php/Home/Login/checkLogin?account=super_admin&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2016-10-31 21:57:19] ::1 /hotel/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 21:57:31] ::1 /hotel/index.php/Home/User/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:19:36] ::1 /hotel/index.php/Home/User/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:19:39] ::1 /hotel/index.php/Home/Hotel/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:19:49] ::1 /hotel/index.php/Home/Hotel/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Model.class.php(966)  select  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Model.class.php(231)  getField  
+File:D:\WWW\hotel\Application\Home\Model\HotelModel.class.php(24)  __call  
+File:D:\WWW\hotel\Application\Home\Model\HotelModel.class.php(24)  count  
+File:D:\WWW\hotel\Application\Home\Controller\HotelController.class.php(17)  showList  
+File:()  showList  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.wsl_hotel' doesn't exist
+
+[2016-10-31 22:19:54] ::1 /hotel/index.php/Home/Hotel/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Model.class.php(966)  select  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Model.class.php(231)  getField  
+File:D:\WWW\hotel\Application\Home\Model\HotelModel.class.php(24)  __call  
+File:D:\WWW\hotel\Application\Home\Model\HotelModel.class.php(24)  count  
+File:D:\WWW\hotel\Application\Home\Controller\HotelController.class.php(17)  showList  
+File:()  showList  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.wsl_hotel' doesn't exist
+
+[2016-10-31 22:29:13] ::1 /hotel/index.php/Home/Hotel/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Model.class.php(966)  select  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Model.class.php(231)  getField  
+File:D:\WWW\hotel\Application\Home\Model\HotelModel.class.php(24)  __call  
+File:D:\WWW\hotel\Application\Home\Model\HotelModel.class.php(24)  count  
+File:D:\WWW\hotel\Application\Home\Controller\HotelController.class.php(17)  showList  
+File:()  showList  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotel.wsl_hotel' doesn't exist
+
+[2016-10-31 22:37:40] ::1 /hotel/index.php/Home/Hotel/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-10-31 22:40:51] ::1 /hotel/index.php/Home/Hotel/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:41:21] ::1 /hotel/index.php/Home/Hotel/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:41:27] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:47:00] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:48:28] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:48:49] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:50:02] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:50:33] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-10-31 22:50:58] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:52:01] ::1 /hotel/index.php/Home/User/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:52:38] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:53:44] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:54:52] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:55:13] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:55:47] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:56:22] ::1 /hotel/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 22:58:29] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 22:59:20] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:00:04] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:00:25] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-10-31 23:01:31] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:06:30] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:06:31] ::1 /hotel/index.php/Home/Hotel/%7Binfo['imglink']%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 非法操作:{info['imglink']}
+
+[2016-10-31 23:06:31] ::1 /hotel/index.php/Home/Hotel/%7Binfo['imglink']%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 非法操作:{info['imglink']}
+
+[2016-10-31 23:06:34] ::1 /hotel/index.php/Home/Hotel/%7Binfo['imglink']%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 非法操作:{info['imglink']}
+
+[2016-10-31 23:06:58] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:06:58] ::1 /hotel/index.php/Home/Hotel/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 非法操作:1
+
+[2016-10-31 23:06:58] ::1 /hotel/index.php/Home/Hotel/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Controller.class.php(170)  E  
+File:()  __call  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(180)  invokeArgs  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 非法操作:1
+
+[2016-10-31 23:07:13] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:07:19] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:12:40] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:12:43] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-10-31 23:12:47] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:12:52] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:13:53] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2016-10-31 23:13:55] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+
+[2016-10-31 23:13:58] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-10-31 23:13:59] ::1 /hotel/index.php/Home/Hotel/20161031/1477926833_1931452847.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:13:59] ::1 /hotel/index.php/Home/Hotel/20161031/1477926833_1931452847.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:14:04] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-10-31 23:14:05] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:17:43] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:17:44] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:17:50] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:17:51] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:17:51] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:18:24] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:18:25] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:18:25] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:18:28] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:19:04] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:19:04] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:19:05] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:21:27] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:21:28] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:21:28] ::1 /hotel/index.php/Home/Hotel/20161031/1477926844_1123195236.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:21:32] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:21:34] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:21:37] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:22:10] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+
+[2016-10-31 23:22:23] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:24:20] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2016-10-31 23:25:48] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:26:01] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:26:03] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:26:06] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:26:20] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:26:22] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2016-10-31 23:28:41] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[2016-10-31 23:28:43] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:28:53] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:28:55] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:29:14] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:29:16] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:29:22] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:29:24] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:29:27] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:29:36] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:29:38] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-10-31 23:31:17] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:32:33] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:33:25] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-10-31 23:33:27] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:33:41] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:33:59] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:34:26] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:34:34] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:36:44] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:36:48] ::1 /hotel/index.php/Home/Hotel/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-10-31 23:37:28] ::1 /hotel/index.php/Home/Hotel/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:37:30] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:37:50] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2016-10-31 23:37:57] ::1 /hotel/index.php/Home/Hotel/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:37:57] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-10-31 23:39:10] ::1 /hotel/index.php/Home/Hotel/modify?type=menu&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[2016-10-31 23:39:13] ::1 /hotel/index.php/Home/Hotel/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:39:28] ::1 /hotel/index.php/Home/Hotel/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:39:28] ::1 /hotel/index.php/Home/Hotel/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[2016-10-31 23:39:50] ::1 /hotel/index.php/Home/Hotel/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[2016-10-31 23:39:52] ::1 /hotel/index.php/Home/Hotel/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[2016-10-31 23:39:59] ::1 /hotel/index.php/Home/Hotel/showList?searchValue=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[2016-10-31 23:40:02] ::1 /hotel/index.php/Home/Hotel/showList?searchValue=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:40:11] ::1 /hotel/index.php/Home/Hotel/showList?searchValue=%E6%8C%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:45:51] ::1 /hotel/index.php/Home/Hotel/showList?searchValue=%E6%8C%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:54:49] ::1 /hotel/index.php/Home/User/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-10-31 23:56:26] ::1 /hotel/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-10-31 23:56:34] ::1 /hotel/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+

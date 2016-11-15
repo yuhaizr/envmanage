@@ -1,0 +1,936 @@
+[2016-10-30 10:29:08] ::1 /hotel/index.php/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:29:08] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:29:08] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:29:08] ::1 /hotel/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/css/dashboard.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:29:09] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:29:10] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:29:10] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:29:10] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:29:10] ::1 /hotel/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/css/dashboard.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:07] ::1 /hotel/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:09] ::1 /hotel/index.php/css/dashboard.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:09] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:09] ::1 /hotel/index.php/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:22] ::1 /hotel/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:30:33] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/css/popuo-box.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Css
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/js/jquery.magnific-popup.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:31:05] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:31:09] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:31:33] ::1 /hotel/index.php/js/modernizr.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Js
+
+[2016-10-30 10:31:36] ::1 /hotel/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:31:36] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:31:36] ::1 /hotel/index.php/images/lines.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Images
+
+[2016-10-30 10:32:53] ::1 /hotel/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Index
+
+[2016-10-30 10:34:37] ::1 /hotel/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Index
+
+[2016-10-30 10:34:52] ::1 /hotel/index.php/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Upload
+
+[2016-10-30 13:43:51] ::1 /hotel/index.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载模块:Login
+

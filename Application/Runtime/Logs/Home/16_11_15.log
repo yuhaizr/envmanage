@@ -1,0 +1,171 @@
+[2016-11-15 00:57:35] ::1 /hotel/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.012001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+
+[2016-11-15 00:57:38] ::1 /hotel/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 00:57:41] ::1 /hotel/index.php/Home/Login/checkLogin?account=super_admin&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 00:57:42] ::1 /hotel/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 00:57:51] ::1 /hotel/index.php/Home/Hotel/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 00:57:54] ::1 /hotel/index.php/Home/Room/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(101)  E  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\hotel\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\hotel\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\hotel\index.php(31)  require  
+ERR: 无法加载控制器:Room
+
+[2016-11-15 00:58:00] ::1 /hotel/index.php/Home/Hotel/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2016-11-15 20:43:54] ::1 /envmanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 20:43:57] ::1 /envmanage/index.php/Home/Login/checkLogin?account=super_admin&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 20:43:58] ::1 /envmanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 20:50:52] ::1 /envmanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[2016-11-15 22:07:50] ::1 /envmanage/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 22:07:58] ::1 /envmanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 22:08:01] ::1 /envmanage/index.php/Home/Login/checkLogin?account=super_admin&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-15 22:08:02] ::1 /envmanage/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-15 23:35:52] ::1 /envmanage/index.php/Home/login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-15 23:35:54] ::1 /envmanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-15 23:35:56] ::1 /envmanage/index.php/Home/Login/checkLogin?account=super_admin&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Model.class.php(763)  select  
+File:D:\WWW\envmanage\Application\Home\Controller\LoginController.class.php(61)  find  
+File:()  checkLogin  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\envmanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\envmanage\index.php(31)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+
+[2016-11-15 23:36:03] ::1 /envmanage/index.php/Home/Login/checkLogin?account=admin&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Model.class.php(763)  select  
+File:D:\WWW\envmanage\Application\Home\Controller\LoginController.class.php(61)  find  
+File:()  checkLogin  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\envmanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\envmanage\index.php(31)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+
+[2016-11-15 23:36:23] ::1 /envmanage/index.php/Home/Login/checkLogin?account=admin&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Db\Driver.class.php(169)  execute  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Db\Driver.class.php(942)  query  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Model.class.php(763)  select  
+File:D:\WWW\envmanage\Application\Home\Controller\LoginController.class.php(61)  find  
+File:()  checkLogin  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(164)  invoke  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(202)  exec  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\envmanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\envmanage\index.php(31)  require  
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+
+[2016-11-15 23:39:06] ::1 /envmanage/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-15 23:39:10] ::1 /envmanage/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
