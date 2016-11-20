@@ -1,0 +1,39 @@
+[2016-11-18 21:45:24] ::1 /envmanage/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\envmanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\envmanage\index.php(31)  require  
+ERR: 无法加载模块:Admin
+
+[2016-11-18 21:45:37] ::1 /envmanage/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\envmanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\envmanage\index.php(31)  require  
+ERR: 无法加载模块:Admin
+
+[2016-11-18 21:46:21] ::1 /envmanage/index.php/Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Dispatcher.class.php(176)  E  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(38)  dispatch  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\App.class.php(193)  init  
+File:D:\WWW\envmanage\ThinkPHP\Library\Think\Think.class.php(120)  run  
+File:D:\WWW\envmanage\ThinkPHP\ThinkPHP.php(97)  start  
+File:D:\WWW\envmanage\index.php(31)  require  
+ERR: 无法加载模块:Admin
+

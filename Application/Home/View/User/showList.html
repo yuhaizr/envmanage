@@ -34,13 +34,15 @@
 	                	</div>	   
 	 
 	  					<div class="col-lg-2">
-                       
-           		   			<select   id="type" name='type' style="width:100%;">
-           		   				<option   value="" >请选择用户类型</option>
-                        		<option   value="1" <if condition="$type eq '1'">selected = "selected"</if> >管理员</option>
-                                <option   value="0" <if condition="$type eq '0'">selected = "selected"</if> >普通用户</option>   
-                                 
-                           	</select>                  
+
+           		   				<select  id='type_id_select' name='type' >
+							    	<option   value="" >请选择用户类型</option>
+							    	<foreach name='user_type_list'  item="vo" key="key">
+							    		<option <if condition=" $type eq $vo.id "> selected="selected"</if> value='{$vo.id}'>{$vo.name}</option>
+							    	</foreach>
+							    	
+							 	</select> 
+                    
                    		</div>
 
 	                	<div class="col-sm-1">
@@ -57,7 +59,6 @@
 	                        <tr role="row">
 	                        	<th>序号</th>
 	                        	<th>类型</th>
-	                            <th>注册时间</th>
 	                            <th>账号</th>
 	                            <th>昵称</th>
 	                            <th>邮箱</th>
@@ -73,7 +74,6 @@
 		                        <tr>
 		                            <td>{$key+1}</td>
 		                            <td>{$vo.type}</td>
-		                            <td>{$vo.ctime}</td>
 		                            <td>{$vo.account}</td>
 		                            <td>{$vo.nickname}</td>
 		                            <td>{$vo.email}</td>
@@ -82,9 +82,15 @@
 
 		                			<td>
 		                		
-		                			<a href="__URL__/detail?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_detail_btn btn btn-primary">详情</a>
-		           					<a href="__URL__/modify?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button" style="display: none;" class=" my_modify_btn btn btn-primary">修改</a>
-		           					<a href="__URL__/del?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"    style="display: none;" class=" my_del_btn btn btn-danger  delete">删除</a>
+				     		   			<if condition="$my_modify_btn eq '1'">
+										<a href="__URL__/modify?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_modify_btn btn btn-primary">修改</a>
+										<else/>
+										<a href="__URL__/detail?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"  class=" my_detail_btn btn btn-primary">详情</a>
+										</if>
+										
+										<if condition="$my_del_btn eq '1'">
+										<a href="__URL__/del?type=menu&id={$vo.id}" data-bb-handler="confirm" type="button"    class=" my_del_btn btn btn-danger  delete">删除</a>
+							   			</if>
 		                			</td>
 		          
 		             
@@ -114,22 +120,7 @@
 </block>
 
 <block name="footjs">
-<link href="__PUBLIC__/css/bootstrap-datetimepicker.css" rel="stylesheet" />
 
-<!--Basic Scripts-->
-<script src="__PUBLIC__/js/jquery-2.0.3.min.js"></script>
-<script src="__PUBLIC__/js/bootstrap.min.js"></script>
-
-<!--Beyond Scripts-->
-<script src="__PUBLIC__/js/beyond.min.js"></script>
-<script src="__PUBLIC__/js/select2/select2.js"></script>  
-
-<!--Bootstrap Date Picker-->
-<script src="__PUBLIC__/js/datetime/bootstrap-datepicker.js"></script>
-<script src="__PUBLIC__/js/datetime/bootstrap-datetimepicker.js"></script>
-
-<!--Bootstrap Time Picker-->
-<script src="__PUBLIC__/js/datetime/bootstrap-timepicker.js"></script>
 
 <script type="text/javascript">
 

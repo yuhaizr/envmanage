@@ -21,6 +21,7 @@
     <link href="__PUBLIC__/css/demo.min.css" rel="stylesheet" />
     <link href="__PUBLIC__/css/animate.min.css" rel="stylesheet" />
     <link href="__PUBLIC__/css/load.css" rel="stylesheet" />
+    <link href="__PUBLIC__/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
  	
 	<script type="text/javascript">
 	var __URL = '__URL__';
@@ -32,7 +33,6 @@
    <script src="__PUBLIC__/js/skins.min.js"></script> 
     
     <script src="__PUBLIC__/js/jquery-1.10.2.min.js"></script>
-
     <block name="headjs"></block>
     <script type="text/javascript">
     
@@ -145,7 +145,7 @@
                         <small>
                             <!-- <img src="__PUBLIC__/img/logo.png" alt="" /> -->
                             <font size ='2'>
-                           		网上酒店预订系统设计与实现
+                           		浔阳区环保网格化管理系统
                             </font>
                         </small>
                     </a>
@@ -160,6 +160,8 @@
                 <!-- Account Area and Settings --->
                 <div class="navbar-header pull-right">
                     <div class="navbar-account">
+                    	<marquee style="color: #FBFBFB;" scrollamount="4" width="300" style="width: 300px;">{$notice}</marquee>
+                    
                         <ul class="account-area">
 							<li id="tasks" class="bg-themesecondary" style="<if condition='$task_num eq 0'>display:none;</if> ">
                                 <a class="wave in dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
@@ -174,7 +176,7 @@
 		                                          
 		                                            <div class="message">
 		                                                <span class="message-sender">
-		                                                   {$vo.from_nickname}
+		                                                   {$_SESSION['nickname']}
 		                                                </span>
 		                                                <span class="message-time">
 		                                                   {$vo.ctime}
@@ -202,7 +204,7 @@
                                         <img src="">
                                     </div> -->
                                     <section>
-                                        <h2><span class="profile"><span>{$_SESSION['loginUserName']}</span></span></h2>
+                                        <h2><span class="profile"><span>{$_SESSION['nickname']}</span></span></h2>
                                     </section>
                                 </a>
                                 <!--Login Area Dropdown-->
@@ -275,14 +277,14 @@
                     	<li  <if condition="$value.link eq $NOW_MENU">class='open'</if>  >
                    			 <a href= "#" class="menu-dropdown">
 	                            <i class="menu-icon glyphicon glyphicon-tasks"></i>
-	                            <span class="menu-text"> {$value.title} </span>
+	                            <span class="menu-text"> {$value.title}   </span>
 	                            <i class="menu-expand"></i>
                         	</a>
                         	<ul class="submenu">
                         		<foreach name="value.childs" item="v">
                         			<li   <if condition="$v.link eq $SECOND_NOW_MENU">class='open'</if> >
                         				<empty name="v.childs">
-			                                <a href="__APP__{$v.link}" target="_blank">
+			                                <a href="__APP__{$v.link}" >
 			                                    <span class="menu-text">{$v.title}</span>
 			                               
 			                                </a> 
@@ -294,7 +296,7 @@
 				                            <ul class="submenu">
 				                                <foreach name="v.childs" item="cv">
 					                                	<li>
-						                                	  <a href="__APP__{$cv.link}" target="_blank">
+						                                	  <a href="__APP__{$cv.link}" >
 							                                      <span class="menu-text">{$cv.title}</span>
 							                      
 						                              		  </a>
@@ -408,20 +410,23 @@
 			font-size: 50px;
 
    		}
+   		.select2-container{
+			width: 100%;
+   		}
    		
    </style>
        <script>
     	$(function(){
  
     		
-    		//if(my_del_btn == '1'){
+ /*    		if(my_del_btn == '1'){
     			$(".my_del_btn").show();
-    		//}
-    		//if(my_modify_btn == '1'){
+    		}
+    		if(my_modify_btn == '1'){
     			$(".my_modify_btn").show();
     			$(".my_detail_btn").hide();
-    		//}
-    		
+    		}
+    		 */
 
     	});
     	
@@ -436,13 +441,67 @@
     </script>
     <link href="__PUBLIC__/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
     
-    <block name="footjs">
-	<!--Basic Scripts-->
-    <script src="__PUBLIC__/js/jquery-2.0.3.min.js"></script>
+    
+ <link href="__PUBLIC__/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+
+<!--Basic Scripts-->
+
+
     <script src="__PUBLIC__/js/bootstrap.min.js"></script>
 
     <!--Beyond Scripts-->
     <script src="__PUBLIC__/js/beyond.min.js"></script>
+
+<!--Beyond Scripts-->
+ <script src="__PUBLIC__/js/select2/select2.js"></script> 
+<script src="__PUBLIC__/js/datetime/bootstrap-timepicker.js"></script>  
+
+
+<script src="__PUBLIC__/js/datetime/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+	    //$("#registrationForm").bootstrapValidator();
+	    $("select").select2();
+		$('.yearView').datetimepicker({
+			autoclose: true,
+			startView:4,minView:4,
+	        lang:"ch",           
+	        format:"yyyy",      
+	        timepicker:false,  
+	    
+	        minDate: 0,   
+	  
+	        });
+		
+		
+		$('.yearView').datetimepicker('setEndDate',(new Date()).getFullYear());
+		
+		$('.dateView').datetimepicker({
+			autoclose: true,
+			startView:2,minView:2,
+	        lang:"ch",           
+	        format:"yyyy-mm-dd",      
+	        timepicker:false,  
+	    
+	        minDate: 0,   
+	  
+	        });
+		
+	});
+	$(".imgdiv").click(function(){
+		window.open($(this).attr('src'),'_blank');
+
+	});
+
+	$(function(){
+	
+		
+	});
+</script>
+    
+    <block name="footjs">
+	<!--Basic Scripts-->
+
     
 
     

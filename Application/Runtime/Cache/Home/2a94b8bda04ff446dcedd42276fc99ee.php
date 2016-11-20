@@ -21,6 +21,7 @@
     <link href="/envmanage/Public/css/demo.min.css" rel="stylesheet" />
     <link href="/envmanage/Public/css/animate.min.css" rel="stylesheet" />
     <link href="/envmanage/Public/css/load.css" rel="stylesheet" />
+    <link href="/envmanage/Public/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
  	
 	<script type="text/javascript">
 	var __URL = '/envmanage/index.php/Home/Index';
@@ -32,7 +33,6 @@
    <script src="/envmanage/Public/js/skins.min.js"></script> 
     
     <script src="/envmanage/Public/js/jquery-1.10.2.min.js"></script>
-    <script src="/envmanage/Public/base.js"></script>
     
     <script type="text/javascript">
     
@@ -145,7 +145,7 @@
                         <small>
                             <!-- <img src="/envmanage/Public/img/logo.png" alt="" /> -->
                             <font size ='2'>
-                           		网上酒店预订系统设计与实现
+                           		浔阳区环保网格化管理系统
                             </font>
                         </small>
                     </a>
@@ -160,6 +160,8 @@
                 <!-- Account Area and Settings --->
                 <div class="navbar-header pull-right">
                     <div class="navbar-account">
+                    	<marquee style="color: #FBFBFB;" scrollamount="4" width="300" style="width: 300px;"><?php echo ($notice); ?></marquee>
+                    
                         <ul class="account-area">
 							<li id="tasks" class="bg-themesecondary" style="<?php if($task_num == 0): ?>display:none;<?php endif; ?> ">
                                 <a class="wave in dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
@@ -173,7 +175,7 @@
 		                                          
 		                                            <div class="message">
 		                                                <span class="message-sender">
-		                                                   <?php echo ($vo["from_nickname"]); ?>
+		                                                   <?php echo ($_SESSION['nickname']); ?>
 		                                                </span>
 		                                                <span class="message-time">
 		                                                   <?php echo ($vo["ctime"]); ?>
@@ -199,7 +201,7 @@
                                         <img src="">
                                     </div> -->
                                     <section>
-                                        <h2><span class="profile"><span><?php echo ($_SESSION['loginUserName']); ?></span></span></h2>
+                                        <h2><span class="profile"><span><?php echo ($_SESSION['nickname']); ?></span></span></h2>
                                     </section>
                                 </a>
                                 <!--Login Area Dropdown-->
@@ -271,12 +273,12 @@
                     <?php if(is_array($menu)): foreach($menu as $key=>$value): ?><li  <?php if($value["link"] == $NOW_MENU): ?>class='open'<?php endif; ?>  >
                    			 <a href= "#" class="menu-dropdown">
 	                            <i class="menu-icon glyphicon glyphicon-tasks"></i>
-	                            <span class="menu-text"> <?php echo ($value["title"]); ?> </span>
+	                            <span class="menu-text"> <?php echo ($value["title"]); ?>   </span>
 	                            <i class="menu-expand"></i>
                         	</a>
                         	<ul class="submenu">
                         		<?php if(is_array($value["childs"])): foreach($value["childs"] as $key=>$v): ?><li   <?php if($v["link"] == $SECOND_NOW_MENU): ?>class='open'<?php endif; ?> >
-                        				<?php if(empty($v["childs"])): ?><a href="/envmanage/index.php<?php echo ($v["link"]); ?>" target="_blank">
+                        				<?php if(empty($v["childs"])): ?><a href="/envmanage/index.php<?php echo ($v["link"]); ?>" >
 			                                    <span class="menu-text"><?php echo ($v["title"]); ?></span>
 			                               
 			                                </a> 
@@ -287,7 +289,7 @@
 				                            </a> 
 				                            <ul class="submenu">
 				                                <?php if(is_array($v["childs"])): foreach($v["childs"] as $key=>$cv): ?><li>
-						                                	  <a href="/envmanage/index.php<?php echo ($cv["link"]); ?>" target="_blank">
+						                                	  <a href="/envmanage/index.php<?php echo ($cv["link"]); ?>" >
 							                                      <span class="menu-text"><?php echo ($cv["title"]); ?></span>
 							                      
 						                              		  </a>
@@ -357,7 +359,7 @@
         		
 <div class="page-body" style="font-size: 40px;text-align: center;margin-top: 100px;">
 
-	欢迎<?php echo ($_SESSION['loginUserName']); ?>访问网上酒店预订系统设计与实现
+	欢迎<?php echo ($_SESSION['nickname']); ?>浔阳区环保网格化管理系统
 </div>
 
 
@@ -397,20 +399,23 @@
 			font-size: 50px;
 
    		}
+   		.select2-container{
+			width: 100%;
+   		}
    		
    </style>
        <script>
     	$(function(){
  
     		
-    		//if(my_del_btn == '1'){
+ /*    		if(my_del_btn == '1'){
     			$(".my_del_btn").show();
-    		//}
-    		//if(my_modify_btn == '1'){
+    		}
+    		if(my_modify_btn == '1'){
     			$(".my_modify_btn").show();
     			$(".my_detail_btn").hide();
-    		//}
-    		
+    		}
+    		 */
 
     	});
     	
@@ -426,14 +431,66 @@
     <link href="/envmanage/Public/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
     
     
+ <link href="/envmanage/Public/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+
 <!--Basic Scripts-->
-<script src="/envmanage/Public/js/jquery-2.0.3.min.js"></script>
-<script src="/envmanage/Public/js/bootstrap.min.js"></script>
+
+
+    <script src="/envmanage/Public/js/bootstrap.min.js"></script>
+
+    <!--Beyond Scripts-->
+    <script src="/envmanage/Public/js/beyond.min.js"></script>
 
 <!--Beyond Scripts-->
-<script src="/envmanage/Public/js/beyond.min.js"></script>
- <!--Page Related Scripts-->
-<script src="/envmanage/Public/js/validation/bootstrapValidator.js"></script>
+ <script src="/envmanage/Public/js/select2/select2.js"></script> 
+<script src="/envmanage/Public/js/datetime/bootstrap-timepicker.js"></script>  
+
+
+<script src="/envmanage/Public/js/datetime/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+	    //$("#registrationForm").bootstrapValidator();
+	    $("select").select2();
+		$('.yearView').datetimepicker({
+			autoclose: true,
+			startView:4,minView:4,
+	        lang:"ch",           
+	        format:"yyyy",      
+	        timepicker:false,  
+	    
+	        minDate: 0,   
+	  
+	        });
+		
+		
+		$('.yearView').datetimepicker('setEndDate',(new Date()).getFullYear());
+		
+		$('.dateView').datetimepicker({
+			autoclose: true,
+			startView:2,minView:2,
+	        lang:"ch",           
+	        format:"yyyy-mm-dd",      
+	        timepicker:false,  
+	    
+	        minDate: 0,   
+	  
+	        });
+		
+	});
+	$(".imgdiv").click(function(){
+		window.open($(this).attr('src'),'_blank');
+
+	});
+
+	$(function(){
+	
+		
+	});
+</script>
+    
+    
+<!--Basic Scripts-->
+
 <script type="text/javascript">
 $(document).ready(function () {
     //$("#registrationForm").bootstrapValidator();

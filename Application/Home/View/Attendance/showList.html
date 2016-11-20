@@ -1,0 +1,148 @@
+<extend name="Public:base"/>
+<block name="headjs"></block>
+
+<block name="body">
+
+
+<div class="row">
+	<div class="col-xs-12 col-md-12">
+	        <div class="widget">
+	            <div class="widget-header ">
+	                <span class="widget-caption">考勤列表</span>
+	                <div class="widget-buttons">
+	                    <a href="#" data-toggle="maximize">
+	                        <i class="fa fa-expand"></i>
+	                    </a>
+	                    <a href="#" data-toggle="collapse">
+	                        <i class="fa fa-minus"></i>
+	                    </a>
+	                    <a href="#" data-toggle="dispose">
+	                        <i class="fa fa-times"></i>
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="widget-body">
+	      			<div class="table-toolbar row">
+	      			<form action="__URL__/showList" method="get" >
+	 
+	 					<div class="col-sm-3">
+							<input type="text" value="{$searchDate}" class="form-control" name='searchDate' id="searchDate" placeholder="请选择日期">
+						</div>
+	 
+	 	
+	  
+
+	                	<div class="col-sm-1">
+	                		<input class="btn btn-palegreen" type="submit" id="search" value="搜索">
+	                	</div>      
+	                	</form>
+	                	
+	                	
+	                	<div class="col-sm-2">
+	                	  <notempty name="info['am_time']">
+	                	  		<a class="btn" >上班打卡{$info['am_time']}</a>
+	                	  		<else/>
+	                	  		<input href="__URL__/add?type=am" is_have='no' class="btn btn-palegreen add_input" type="submit" value="上班打卡" >
+	                	  </notempty>
+	                		
+	                	</div>
+		               <div class="col-sm-2">
+	                	  <notempty name="info['pm_time']">
+	                	  		<a class="btn" >下班打卡{$info['pm_time']}</a>
+	                	  		<else/>
+	                	  		
+	                	  		<input href="__URL__/add?type=pm" is_have='no' class="btn btn-palegreen add_input" type="submit" value="下班打卡" >
+	                	  </notempty>
+	                	</div>                	
+	              
+	           
+	                </div>
+		         
+	                <table class="table table-striped table-hover table-bordered" id="editabledatatable">
+	                    <thead>
+	                        <tr role="row">
+								<th>序号</th>
+								<th>日期</th>
+								<th>上班打卡</th>
+								<th>下班打开时间</th>
+								<th>考勤状态</th>
+		
+	       	          
+	              
+	                        </tr>
+	                    </thead>
+	
+	                    <tbody id="tapeListTable">
+	                    	<foreach name="list" item="vo" key="key">
+		                        <tr>
+								<td>{$key+1}</td>
+								<td>{$vo.date}</td>
+		                        <td>{$vo.am_time}</td> 
+		                        <td>{$vo.pm_time}</td>  
+		                        <td>{$vo.type}</td>   
+		         
+		  
+		          
+		             
+		                         
+		                        </tr>
+	                        </foreach>                        
+	                    </tbody>
+	                </table><br/>
+               <div class="row DTTTFooter">
+					<div class="col-sm-6">
+						<div class="dataTables_info" id="simpledatatable_info" role="alert" aria-live="polite" aria-relevant="all"></div>
+					</div>
+					<div class="col-sm-8 pull-right">
+						<div class="dataTables_paginate paging_bootstrap" id="simpledatatable_paginate">
+							<ul class="pagination" id="pageUl">
+								{$page}
+							</ul>
+						</div>
+					</div>				
+            	</div>  								
+	        </div>
+	    </div>
+	</div>
+</div>
+
+         
+</block>
+
+<block name="footjs">
+
+
+<script src="__PUBLIC__/js/datetime/moment.js"></script>
+<script src="__PUBLIC__/js/datetime/daterangepicker.js"></script>
+
+<script type="text/javascript">
+
+
+$("#searchDate").daterangepicker({
+	format:"YYYY-MM-DD",
+	separator : '__',
+	locale:{
+		applyLabel:"确定",
+		cancelLabel:"取消",
+		fromLabel:"从",
+		toLabel:"到"
+	}
+});
+
+$(".add_input").click(function(){
+	if(confirm("确定打卡？打卡后不能进行修改")){
+		var href = $(this).attr('href');
+		location.href = href;
+	}else{
+		return false;
+	}
+	
+
+	
+})
+
+
+</script>
+
+
+</block>

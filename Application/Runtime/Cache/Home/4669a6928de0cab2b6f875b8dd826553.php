@@ -8,31 +8,31 @@
     <meta name="description" content="<?php echo ($page_description); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="/hotel/Public/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/envmanage/Public/img/favicon.png" type="image/x-icon">
 
     <!--Basic Styles-->
-    <link href="/hotel/Public/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/envmanage/Public/css/bootstrap.min.css" rel="stylesheet" />
     <link id="bootstrap-rtl-link" href="" rel="stylesheet" />
-    <link href="/hotel/Public/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/envmanage/Public/css/font-awesome.min.css" rel="stylesheet" />
     
 
     <!--Beyond styles-->
-    <link id="beyond-link" href="/hotel/Public/css/beyond.min.css" rel="stylesheet" />
-    <link href="/hotel/Public/css/demo.min.css" rel="stylesheet" />
-    <link href="/hotel/Public/css/animate.min.css" rel="stylesheet" />
-    <link href="/hotel/Public/css/load.css" rel="stylesheet" />
+    <link id="beyond-link" href="/envmanage/Public/css/beyond.min.css" rel="stylesheet" />
+    <link href="/envmanage/Public/css/demo.min.css" rel="stylesheet" />
+    <link href="/envmanage/Public/css/animate.min.css" rel="stylesheet" />
+    <link href="/envmanage/Public/css/load.css" rel="stylesheet" />
+    <link href="/envmanage/Public/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
  	
 	<script type="text/javascript">
-	var __URL = '/hotel/index.php/Home/User';
-	var __APP = '/hotel/index.php';
-	var __PUBLIC = '/hotel/Public';
+	var __URL = '/envmanage/index.php/Home/User';
+	var __APP = '/envmanage/index.php';
+	var __PUBLIC = '/envmanage/Public';
 	var __AJAX;
 	</script>
     <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
-   <script src="/hotel/Public/js/skins.min.js"></script> 
+   <script src="/envmanage/Public/js/skins.min.js"></script> 
     
-    <script src="/hotel/Public/js/jquery-1.10.2.min.js"></script>
-    <script src="/hotel/Public/base.js"></script>
+    <script src="/envmanage/Public/js/jquery-1.10.2.min.js"></script>
     
     <script type="text/javascript">
     
@@ -143,9 +143,9 @@
                 <div class="navbar-header pull-left">
                     <a href="#" class="navbar-brand" id="nav-title">
                         <small>
-                            <!-- <img src="/hotel/Public/img/logo.png" alt="" /> -->
+                            <!-- <img src="/envmanage/Public/img/logo.png" alt="" /> -->
                             <font size ='2'>
-                           		网上酒店预订系统设计与实现
+                           		浔阳区环保网格化管理系统
                             </font>
                         </small>
                     </a>
@@ -160,6 +160,8 @@
                 <!-- Account Area and Settings --->
                 <div class="navbar-header pull-right">
                     <div class="navbar-account">
+                    	<marquee style="color: #FBFBFB;" scrollamount="4" width="300" style="width: 300px;"><?php echo ($notice); ?></marquee>
+                    
                         <ul class="account-area">
 							<li id="tasks" class="bg-themesecondary" style="<?php if($task_num == 0): ?>display:none;<?php endif; ?> ">
                                 <a class="wave in dropdown-toggle" data-toggle="dropdown" title="Help" href="#">
@@ -173,7 +175,7 @@
 		                                          
 		                                            <div class="message">
 		                                                <span class="message-sender">
-		                                                   <?php echo ($vo["from_nickname"]); ?>
+		                                                   <?php echo ($_SESSION['nickname']); ?>
 		                                                </span>
 		                                                <span class="message-time">
 		                                                   <?php echo ($vo["ctime"]); ?>
@@ -189,7 +191,7 @@
 		                                    </li><?php endforeach; endif; ?>
                                    		<li style="font-size: 0.2em;text-align: right;">
                                    			<span class="col-sm-6"><button class="btn btn-sm readedAll">全部标记为已读</button></span>
-                                			<span class="col-sm-6"><button class="btn btn-sm"><a href="/hotel/index.php/Home/Task/taskList" target="_blank">显示所有消息</a></button></span>
+                                			<span class="col-sm-6"><button class="btn btn-sm"><a href="/envmanage/index.php/Home/Task/taskList" target="_blank">显示所有消息</a></button></span>
                                 		</li>
 	                                </ul>      
              				</li>      
@@ -199,7 +201,7 @@
                                         <img src="">
                                     </div> -->
                                     <section>
-                                        <h2><span class="profile"><span><?php echo ($_SESSION['loginUserName']); ?></span></span></h2>
+                                        <h2><span class="profile"><span><?php echo ($_SESSION['nickname']); ?></span></span></h2>
                                     </section>
                                 </a>
                                 <!--Login Area Dropdown-->
@@ -208,24 +210,24 @@
                                     <!--Theme Selector Area-->
                  <!--                  <li class="theme-area">
                                         <ul class="colorpicker" id="skin-changer">
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#5DB2FF;" rel="/hotel/Public/css/skins/blue.min.css"></a></li>
-                                            <li><a id='azure_div' class="colorpick-btn" href="#" style="background-color:#2dc3e8;" rel="/hotel/Public/css/skins/azure.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#03B3B2;" rel="/hotel/Public/css/skins/teal.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#53a93f;" rel="/hotel/Public/css/skins/green.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#FF8F32;" rel="/hotel/Public/css/skins/orange.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#cc324b;" rel="/hotel/Public/css/skins/pink.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#AC193D;" rel="/hotel/Public/css/skins/darkred.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#8C0095;" rel="/hotel/Public/css/skins/purple.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#0072C6;" rel="/hotel/Public/css/skins/darkblue.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#585858;" rel="/hotel/Public/css/skins/gray.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#474544;" rel="/hotel/Public/css/skins/black.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#001940;" rel="/hotel/Public/css/skins/deepblue.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#5DB2FF;" rel="/envmanage/Public/css/skins/blue.min.css"></a></li>
+                                            <li><a id='azure_div' class="colorpick-btn" href="#" style="background-color:#2dc3e8;" rel="/envmanage/Public/css/skins/azure.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#03B3B2;" rel="/envmanage/Public/css/skins/teal.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#53a93f;" rel="/envmanage/Public/css/skins/green.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#FF8F32;" rel="/envmanage/Public/css/skins/orange.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#cc324b;" rel="/envmanage/Public/css/skins/pink.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#AC193D;" rel="/envmanage/Public/css/skins/darkred.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#8C0095;" rel="/envmanage/Public/css/skins/purple.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#0072C6;" rel="/envmanage/Public/css/skins/darkblue.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#585858;" rel="/envmanage/Public/css/skins/gray.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#474544;" rel="/envmanage/Public/css/skins/black.min.css"></a></li>
+                                            <li><a class="colorpick-btn" href="#" style="background-color:#001940;" rel="/envmanage/Public/css/skins/deepblue.min.css"></a></li>
                                         </ul>
                                     </li>  -->
                                     
                                     <!--/Theme Selector Area-->
                                     <li class="dropdown-footer">
-                                        <a href="/hotel/index.php/Home/login/logout">
+                                        <a href="/envmanage/index.php/Home/login/logout">
                                             		注销
                                         </a>
                                     </li>
@@ -262,7 +264,7 @@
                  <ul class="nav sidebar-menu">
                     <!--Dashboard-->
                     <li class="active">
-                        <a href="/hotel/index.php/Home/Index/index">
+                        <a href="/envmanage/index.php/Home/Index/index">
                             <i class="menu-icon glyphicon glyphicon-home"></i>
                             <span class="menu-text"> Home </span>
                         </a>
@@ -271,12 +273,12 @@
                     <?php if(is_array($menu)): foreach($menu as $key=>$value): ?><li  <?php if($value["link"] == $NOW_MENU): ?>class='open'<?php endif; ?>  >
                    			 <a href= "#" class="menu-dropdown">
 	                            <i class="menu-icon glyphicon glyphicon-tasks"></i>
-	                            <span class="menu-text"> <?php echo ($value["title"]); ?> </span>
+	                            <span class="menu-text"> <?php echo ($value["title"]); ?>   </span>
 	                            <i class="menu-expand"></i>
                         	</a>
                         	<ul class="submenu">
                         		<?php if(is_array($value["childs"])): foreach($value["childs"] as $key=>$v): ?><li   <?php if($v["link"] == $SECOND_NOW_MENU): ?>class='open'<?php endif; ?> >
-                        				<?php if(empty($v["childs"])): ?><a href="/hotel/index.php<?php echo ($v["link"]); ?>" target="_blank">
+                        				<?php if(empty($v["childs"])): ?><a href="/envmanage/index.php<?php echo ($v["link"]); ?>" >
 			                                    <span class="menu-text"><?php echo ($v["title"]); ?></span>
 			                               
 			                                </a> 
@@ -287,7 +289,7 @@
 				                            </a> 
 				                            <ul class="submenu">
 				                                <?php if(is_array($v["childs"])): foreach($v["childs"] as $key=>$cv): ?><li>
-						                                	  <a href="/hotel/index.php<?php echo ($cv["link"]); ?>" target="_blank">
+						                                	  <a href="/envmanage/index.php<?php echo ($cv["link"]); ?>" >
 							                                      <span class="menu-text"><?php echo ($cv["title"]); ?></span>
 							                      
 						                              		  </a>
@@ -376,7 +378,7 @@
 	            </div>
 	            <div class="widget-body">
 	      			<div class="table-toolbar row">
-	      			<form action="/hotel/index.php/Home/User/showList" method="get" >
+	      			<form action="/envmanage/index.php/Home/User/showList" method="get" >
    	                 <div class="search-box col-sm-3" >
 	                		<div>
 	                			<span class="input-icon">
@@ -387,13 +389,13 @@
 	                	</div>	   
 	 
 	  					<div class="col-lg-2">
-                       
-           		   			<select   id="type" name='type' style="width:100%;">
-           		   				<option   value="" >请选择用户类型</option>
-                        		<option   value="1" <?php if($type == '1'): ?>selected = "selected"<?php endif; ?> >管理员</option>
-                                <option   value="0" <?php if($type == '0'): ?>selected = "selected"<?php endif; ?> >普通用户</option>   
-                                 
-                           	</select>                  
+
+           		   				<select  id='type_id_select' name='type' >
+							    	<option   value="" >请选择用户类型</option>
+							    	<?php if(is_array($user_type_list)): foreach($user_type_list as $key=>$vo): ?><option <?php if( $type == $vo["id"] ): ?>selected="selected"<?php endif; ?> value='<?php echo ($vo["id"]); ?>'><?php echo ($vo["name"]); ?></option><?php endforeach; endif; ?>
+							    	
+							 	</select> 
+                    
                    		</div>
 
 	                	<div class="col-sm-1">
@@ -410,7 +412,6 @@
 	                        <tr role="row">
 	                        	<th>序号</th>
 	                        	<th>类型</th>
-	                            <th>注册时间</th>
 	                            <th>账号</th>
 	                            <th>昵称</th>
 	                            <th>邮箱</th>
@@ -425,7 +426,6 @@
 	                    	<?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
 		                            <td><?php echo ($key+1); ?></td>
 		                            <td><?php echo ($vo["type"]); ?></td>
-		                            <td><?php echo ($vo["ctime"]); ?></td>
 		                            <td><?php echo ($vo["account"]); ?></td>
 		                            <td><?php echo ($vo["nickname"]); ?></td>
 		                            <td><?php echo ($vo["email"]); ?></td>
@@ -434,9 +434,11 @@
 
 		                			<td>
 		                		
-		                			<a href="/hotel/index.php/Home/User/detail?type=menu&id=<?php echo ($vo["id"]); ?>" data-bb-handler="confirm" type="button"  class=" my_detail_btn btn btn-primary">详情</a>
-		           					<a href="/hotel/index.php/Home/User/modify?type=menu&id=<?php echo ($vo["id"]); ?>" data-bb-handler="confirm" type="button" style="display: none;" class=" my_modify_btn btn btn-primary">修改</a>
-		           					<a href="/hotel/index.php/Home/User/del?type=menu&id=<?php echo ($vo["id"]); ?>" data-bb-handler="confirm" type="button"    style="display: none;" class=" my_del_btn btn btn-danger  delete">删除</a>
+				     		   			<?php if($my_modify_btn == '1'): ?><a href="/envmanage/index.php/Home/User/modify?type=menu&id=<?php echo ($vo["id"]); ?>" data-bb-handler="confirm" type="button"  class=" my_modify_btn btn btn-primary">修改</a>
+										<?php else: ?>
+										<a href="/envmanage/index.php/Home/User/detail?type=menu&id=<?php echo ($vo["id"]); ?>" data-bb-handler="confirm" type="button"  class=" my_detail_btn btn btn-primary">详情</a><?php endif; ?>
+										
+										<?php if($my_del_btn == '1'): ?><a href="/envmanage/index.php/Home/User/del?type=menu&id=<?php echo ($vo["id"]); ?>" data-bb-handler="confirm" type="button"    class=" my_del_btn btn btn-danger  delete">删除</a><?php endif; ?>
 		                			</td>
 		          
 		             
@@ -499,20 +501,23 @@
 			font-size: 50px;
 
    		}
+   		.select2-container{
+			width: 100%;
+   		}
    		
    </style>
        <script>
     	$(function(){
  
     		
-    		//if(my_del_btn == '1'){
+ /*    		if(my_del_btn == '1'){
     			$(".my_del_btn").show();
-    		//}
-    		//if(my_modify_btn == '1'){
+    		}
+    		if(my_modify_btn == '1'){
     			$(".my_modify_btn").show();
     			$(".my_detail_btn").hide();
-    		//}
-    		
+    		}
+    		 */
 
     	});
     	
@@ -525,25 +530,68 @@
     	}
     	  
     </script>
-    <link href="/hotel/Public/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
+    <link href="/envmanage/Public/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
     
     
-<link href="/hotel/Public/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+ <link href="/envmanage/Public/css/bootstrap-datetimepicker.css" rel="stylesheet" />
 
 <!--Basic Scripts-->
-<script src="/hotel/Public/js/jquery-2.0.3.min.js"></script>
-<script src="/hotel/Public/js/bootstrap.min.js"></script>
+
+
+    <script src="/envmanage/Public/js/bootstrap.min.js"></script>
+
+    <!--Beyond Scripts-->
+    <script src="/envmanage/Public/js/beyond.min.js"></script>
 
 <!--Beyond Scripts-->
-<script src="/hotel/Public/js/beyond.min.js"></script>
-<script src="/hotel/Public/js/select2/select2.js"></script>  
+ <script src="/envmanage/Public/js/select2/select2.js"></script> 
+<script src="/envmanage/Public/js/datetime/bootstrap-timepicker.js"></script>  
 
-<!--Bootstrap Date Picker-->
-<script src="/hotel/Public/js/datetime/bootstrap-datepicker.js"></script>
-<script src="/hotel/Public/js/datetime/bootstrap-datetimepicker.js"></script>
 
-<!--Bootstrap Time Picker-->
-<script src="/hotel/Public/js/datetime/bootstrap-timepicker.js"></script>
+<script src="/envmanage/Public/js/datetime/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+	    //$("#registrationForm").bootstrapValidator();
+	    $("select").select2();
+		$('.yearView').datetimepicker({
+			autoclose: true,
+			startView:4,minView:4,
+	        lang:"ch",           
+	        format:"yyyy",      
+	        timepicker:false,  
+	    
+	        minDate: 0,   
+	  
+	        });
+		
+		
+		$('.yearView').datetimepicker('setEndDate',(new Date()).getFullYear());
+		
+		$('.dateView').datetimepicker({
+			autoclose: true,
+			startView:2,minView:2,
+	        lang:"ch",           
+	        format:"yyyy-mm-dd",      
+	        timepicker:false,  
+	    
+	        minDate: 0,   
+	  
+	        });
+		
+	});
+	$(".imgdiv").click(function(){
+		window.open($(this).attr('src'),'_blank');
+
+	});
+
+	$(function(){
+	
+		
+	});
+</script>
+    
+    
+
 
 <script type="text/javascript">
 

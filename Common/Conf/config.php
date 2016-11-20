@@ -38,6 +38,7 @@ return array(
     'RBAC_NODE_TABLE' => 'oyyq_node', 
     'LOAD_EXT_CONFIG' => array(
         'MENU' => 'menu',
+        'MENU2' => 'menu2',
         'ACCESS' => 'access',
         
     ), // 扩展菜单配置

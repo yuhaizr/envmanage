@@ -1,0 +1,194 @@
+<extend name="Public:base"/>
+<block name="headjs"></block>
+
+<block name="body">
+
+
+<div class="row">
+	<div class="col-xs-12 col-md-12">
+	        <div class="widget">
+	            <div class="widget-header ">
+	                <span class="widget-caption">企业巡查分数走势</span>
+	                <div class="widget-buttons">
+	                    <a href="#" data-toggle="maximize">
+	                        <i class="fa fa-expand"></i>
+	                    </a>
+	                    <a href="#" data-toggle="collapse">
+	                        <i class="fa fa-minus"></i>
+	                    </a>
+	                    <a href="#" data-toggle="dispose">
+	                        <i class="fa fa-times"></i>
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="widget-body">
+	      			<div class="table-toolbar row">
+	      			<form action="__URL__/bizCount" method="get" >
+	      			
+      				<div class="col-sm-3">
+						<input type="text" value="{$searchDate}" class="form-control" name='searchDate' id="searchDate" placeholder="请选择日期">
+					</div>
+	      			
+   	 				 <div class="search-box col-sm-2" >
+	 						<select  id='business_id_select' name='business_id' >
+						    	<option value=''> 请选择公司</option>
+						    	<foreach name='business_list'  item="vo" key="key">
+						    		<option <if condition=" $business_id eq $vo.id "> selected="selected"</if> value='{$vo.id}'>{$vo.name}</option>
+						    	</foreach>
+						    	
+						 	</select> 
+		                </div>	   
+	 					<div class="col-sm-2">
+	 					
+		 					<select  id='prowled_obj_id_select' name='prowled_obj_id' >
+						    	<option value=''> 请选择巡查对象</option>
+						    	<foreach name='biz_prowled_obj_list'  item="vo" key="key">
+						    		<option <if condition=" $prowled_obj_id eq $vo.id "> selected="selected"</if> value='{$vo.id}'>{$vo.name}</option>
+						    	</foreach>
+						    	
+						 	</select> 
+	 					
+	 					</div>
+
+	                	<div class="col-sm-1">
+	                		<input class="btn btn-palegreen" type="submit" id="search" value="搜索">
+	                	</div>      
+	                	</form>
+	                	
+	              
+	           
+	                </div>
+		         
+				<div class='row'>
+	         		<div id="main" style="height:400px"></div>
+			    </div>
+               <div class="row DTTTFooter">
+					<div class="col-sm-6">
+						<div class="dataTables_info" id="simpledatatable_info" role="alert" aria-live="polite" aria-relevant="all"></div>
+					</div>
+					<div class="col-sm-8 pull-right">
+						<div class="dataTables_paginate paging_bootstrap" id="simpledatatable_paginate">
+							<ul class="pagination" id="pageUl">
+								{$page}
+							</ul>
+						</div>
+					</div>				
+            	</div>  								
+	        </div>
+	    </div>
+	</div>
+</div>
+
+         
+</block>
+
+<block name="footjs">
+<script src="__PUBLIC__/js/echarts.min.js"></script>
+
+<script src="__PUBLIC__/js/datetime/moment.js"></script>
+<script src="__PUBLIC__/js/datetime/daterangepicker.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+	var data = '{$data}';
+	var legend = '{$legend}';
+	var avgdata = '{$avgdata}';
+	
+	data = $.parseJSON(data);
+	legend = $.parseJSON(legend);
+	avgdata = $.parseJSON(avgdata);
+	
+	var myChart = echarts.init(document.getElementById('main')); 
+
+	var colors = ['#5793f3', '#d14a61'];
+
+	option = {
+	    color: colors,
+
+	    tooltip: {
+	        trigger: 'axis'
+	    },
+	    grid: {
+	        right: '20%'
+	    },
+
+	    legend: {
+	        data:['分数','平均分数','平均分数']
+	    },
+	    xAxis: [
+	        {
+	            type: 'category',
+	            axisTick: {
+	                alignWithLabel: true
+	            },
+	            data: legend
+	        }
+	    ],
+	    yAxis: [
+	        {
+	            type: 'value',
+	            name: '分数',
+	            min: 0,
+	            max: 120,
+	            position: 'right',
+	            axisLine: {
+	                lineStyle: {
+	                    color: colors[0]
+	                }
+	            },
+	            axisLabel: {
+	                formatter: '{value} '
+	            }
+	        },
+
+	        {
+	            type: 'value',
+	            name: '平均分数',
+	            min: 0,
+	            max: 25,
+	            position: 'left',
+	            axisLine: {
+	                lineStyle: {
+	                    color: colors[1]
+	                }
+	            },
+	            axisLabel: {
+	                formatter: '{value} '
+	            }
+	        }
+	    ],
+	    series: [
+	        {
+	            name:'分数',
+	            type:'bar',
+	            data:data
+	        },
+	   
+	        {
+	            name:'平均分数',
+	            type:'line',
+	            yAxisIndex: 0,
+	            data:avgdata
+	        }
+	    ]
+	};
+	myChart.setOption(option);
+	
+});
+	
+$("#searchDate").daterangepicker({
+	format:"YYYY-MM-DD",
+	separator : '__',
+	locale:{
+		applyLabel:"确定",
+		cancelLabel:"取消",
+		fromLabel:"从",
+		toLabel:"到"
+	}
+});
+
+</script>
+
+
+</block>

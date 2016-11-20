@@ -15,55 +15,89 @@
     
     					 <form action="__URL__/add" method="post"  ><!--enctype="multipart/form-data"  -->
     					 				<notempty name="info">
-    					 					<input type="hidden" class="form-control" required="required"  name="id" value="{$info.id}" >
+    					 					<input type="hidden" class="form-control"  name="id" value="{$info.id}" >
     					 				 </notempty>
 					        
 					                    <div class='row'>
 				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">账号</label>
 		                                     <div class="col-lg-6">
-		                                         <input type="text" class="form-control"   name="account" id="account" required="required" value="{$info.account}" >
+		                                         <input required="required"  type="text" class="form-control"  name="account" id="account"  value="{$info.account}" >
 		                                         
 		                                     </div>
-					     
-				 
 					                    </div>
-					  
-	
-					                     <div class='row'>
+					                    <div class='row'>
 				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">昵称</label>
 		                                     <div class="col-lg-6">
-		                      
-		                                        <input type="text" class="form-control"   name="nickname" id="nickname" required="required" value="{$info.nickname}" >
+		                                         <input required="required"  type="text" class="form-control"  name="nickname" id="nickname"  value="{$info.nickname}" >
 		                                         
 		                                     </div>
-					      				 </div>	
-					                     <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">邮箱</label>
-		                                     <div class="col-lg-6">
-		                     
-		                                         <input type="email" class="form-control"   name="email"  required="required"  value=""  placeholder="1" >
-		                                         
-		                                     </div>
-					      				 </div>		
-					      				 <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">密码</label>
-		                                     <div class="col-lg-6">
-		                     
-		                                         <input type="password" class="form-control"   name="password" id="password" required="required" value="2" placeholder="2" >
-		                                         
-		                                     </div>
-					      				 </div>					                    
+					                    </div>					                    
 					                    <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;" >手机号码</label>
-		                                     <div class="col-lg-3">
-		                                   
-		                                         <input type="phone" class="form-control" name='phone' value="{$info.phone}" required="required" id=""  onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"> 
+					                    	<label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">用户类别</label>
+						 					<div class="col-sm-4">
+				 					
+					           		   				<select required="required"  id='type_id_select' name='type' >
+												    	<option   value="" >请选择用户类型</option>
+												    	<foreach name='user_type_list'  item="vo" key="key">
+												    		<option <if condition=" $info['type'] eq $vo.id "> selected="selected"</if> value='{$vo.id}'>{$vo.name}</option>
+												    	</foreach>
+												    	
+												 	</select> 
+						 					
+						 					</div>
+						 				</div>	
+					                    <div class='row'>
+				                    		<label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">性别</label>
+				                    		<div class="col-sm-4">
+					           		   			<select required="required"  id='type_id_select' name='sex' >
+											    	<option   value="" >请选择性别</option>
+											  
+											    	<option <if condition=" $info['sex'] eq '1' "> selected="selected"</if> value='1'>男</option>
+													<option <if condition=" $info['sex'] eq '2' "> selected="selected"</if> value='2'>女</option>
+											    	
+											 	</select> 
+										 	</div>			                    	
+				                    	</div>			
+<!-- 				                    	 <div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">年龄</label>
+		                                     <div class="col-lg-4">
+		                                         <input   type="text" class="form-control"  name="age" id="age"  value="{$info.age}" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" >
+		                                         
+		                                     </div>
+					                    </div>		 --> 				
+						 				 <div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">地址</label>
+		                                     <div class="col-lg-4">
+		                                         <input   type="text" class="form-control"  name="addr" id="addr"  value="{$info.addr}" >
+		                                         
 		                                     </div>
 					                    </div>
-					                     
-					    	                    
-		
-					                    <div class='row' style="margin-top: 20px;margin-bottom: 20px;">
+						 				 <div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">生日</label>
+		                                     <div class="col-lg-6">
+		                                         <input readonly="readonly" type="text" class="form-control dateView"  name="birthday" id="birthday"   value="{$info.birthday}"  >
+		                                     </div>
+					                    </div>					                    
+							 			<div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">邮箱</label>
+		                                     <div class="col-lg-6">
+		                                         <input   type="email" class="form-control"  name="email" id="email"  value="{$info.email}" >
+		                                     </div>
+					                    </div>				                    
+							 			<div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">电话号码</label>
+		                                     <div class="col-lg-6">
+		                                         <input   type="text" class="form-control"  name="phone" id="phone"  value="{$info.phone}" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" >
+		                                     </div>
+					                    </div>	
+							 			<div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">备注</label>
+		                                     <div class="col-lg-6">
+		                                         <input   type="text" class="form-control"  name="mark" id="mark"  value="{$info.mark}" >
+		                                     </div>
+					                    </div>						                    					
+					                              
+					     				 <div class='row' style="margin-top: 20px;margin-bottom: 20px;">
 					                    	<div class='col-lg-4 col-lg-offset-5'>
 					                    	<input class="btn btn-palegreen" type="submit" id="saveRecord" value="保存用户信息">
 					                    	</div>
@@ -83,19 +117,7 @@
  </block>
  
 <block name="footjs">
-<link href="__PUBLIC__/css/bootstrap-datetimepicker.css" rel="stylesheet" />
 
-<!--Basic Scripts-->
-<script src="__PUBLIC__/js/jquery-2.0.3.min.js"></script>
-<script src="__PUBLIC__/js/bootstrap.min.js"></script>
-
-<!--Beyond Scripts-->
-<script src="__PUBLIC__/js/beyond.min.js"></script>
-<script src="__PUBLIC__/js/select2/select2.js"></script>
-<script src="__PUBLIC__/js/datetime/bootstrap-timepicker.js"></script>  
-<script src="__PUBLIC__/js/datetime/bootstrap-datepicker.js"></script>
-
-<script src="__PUBLIC__/js/datetime/bootstrap-datetimepicker.js"></script>
 <style type="text/css">
 	.select2-container{
 		padding-left: 0px;
@@ -104,29 +126,7 @@
 </style>
 <script type="text/javascript">
 
-	$(function(){
-		$('#start_time').timepicker({'showMeridian':false});
-		$('#end_time').timepicker({'showMeridian':false});
-	});
-
-
-
-	$('.yearView').datetimepicker({
-		autoclose: true,
-		startView:3,minView:3,
-        lang:"ch",           
-        format:"yyyy-mm",      
-        timepicker:false,  
-    
-        minDate: 0,   
-  
-        });
 	
-$(".bfjl_img").click(function(){
-	//window.open($(this).attr('file'),'_blank');
-	var filepath = $(this).attr("file");
-	location.href = "__ROOT__/Home/Upload/downFile?filepath="+filepath;
-});
 
 
 
