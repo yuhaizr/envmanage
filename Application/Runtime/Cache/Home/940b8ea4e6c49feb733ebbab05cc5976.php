@@ -9,8 +9,8 @@ Purchase: http://wrapbootstrap.com
 <!--Head-->
 <head>
     <meta charset="utf-8" />
-    <title>Error 500</title>
-    <meta http-equiv='Refresh' content='<?php echo ($waitSecond); ?>;URL=<?php echo ($jumpUrl); ?>'>
+    <title>错误页面</title>
+    <meta http-equiv='Refresh' content='<?php echo ($waitSecond); ?>;URL=<?php echo ($jumpUrl); ?>'>  
     <meta name="description" content="Error 500" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -32,11 +32,11 @@ Purchase: http://wrapbootstrap.com
 </head>
 <!--Head Ends-->
 <!--Body-->
-<body class="body-500">
-    <div class="error-header"> </div>
+<body class="body-500" style="background-color: #001940">
+    <div class="error-header" style="background-color: #001940"> </div>
     <div class="container ">
         <section class="error-container text-center">
-            <h1>error</h1>
+            <h1>错误</h1>
             <div class="error-divider">
                 <h2><?php echo ($error); ?></h2>
                 <p class="description"></p>	
