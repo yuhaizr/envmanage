@@ -10,10 +10,31 @@ Target Server Type    : MYSQL
 Target Server Version : 50540
 File Encoding         : 65001
 
-Date: 2016-11-20 12:34:20
+Date: 2016-11-21 23:58:01
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `zy_area`
+-- ----------------------------
+DROP TABLE IF EXISTS `zy_area`;
+CREATE TABLE `zy_area` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(64) COLLATE utf8_bin DEFAULT NULL,
+  `des` varchar(1024) COLLATE utf8_bin DEFAULT NULL,
+  `uid` bigint(20) DEFAULT NULL COMMENT '地区的巡查人员',
+  `cuid` bigint(20) DEFAULT NULL,
+  `ctime` datetime DEFAULT NULL,
+  `is_valid` bigint(20) DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ----------------------------
+-- Records of zy_area
+-- ----------------------------
+INSERT INTO `zy_area` VALUES ('1', '十里街道', '十里街道', '5', '1', '2016-11-21 23:14:39', '1');
+INSERT INTO `zy_area` VALUES ('2', '八里湖', '八里湖', '2', '1', '2016-11-21 23:35:03', '1');
 
 -- ----------------------------
 -- Table structure for `zy_area_prowled`
@@ -38,9 +59,9 @@ CREATE TABLE `zy_area_prowled` (
 -- ----------------------------
 -- Records of zy_area_prowled
 -- ----------------------------
-INSERT INTO `zy_area_prowled` VALUES ('2', '7', '2016-11-13', '70', '3', '', '2016-11-20 11:30:20', '1', '1', '/Public/upload/20161120/583118cc3f3ae.jpg', null, null);
-INSERT INTO `zy_area_prowled` VALUES ('3', '7', '2016-11-14', '90', '1', '', '2016-11-20 11:30:38', '1', '1', null, null, null);
-INSERT INTO `zy_area_prowled` VALUES ('4', '5', '2016-11-13', '70', '3', '', '2016-11-20 12:18:16', '1', '0', '/Public/upload/20161120/58312408954b4.jpg', null, null);
+INSERT INTO `zy_area_prowled` VALUES ('2', '7', '2016-11-13', '56', '3', '', '2016-11-20 11:30:20', '1', '1', '/Public/upload/20161120/583118cc3f3ae.jpg', null, null);
+INSERT INTO `zy_area_prowled` VALUES ('3', '7', '2016-11-14', '56', '1', '', '2016-11-20 11:30:38', '1', '1', null, null, null);
+INSERT INTO `zy_area_prowled` VALUES ('4', '7', '2016-11-13', '56', '3', '', '2016-11-20 12:18:16', '1', '1', '/Public/upload/20161120/58312408954b4.jpg', null, null);
 
 -- ----------------------------
 -- Table structure for `zy_attendance`
@@ -81,18 +102,19 @@ CREATE TABLE `zy_biz_prowled` (
   `imagelink3` varchar(255) COLLATE utf8_bin DEFAULT NULL,
   `is_valid` bigint(20) DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- ----------------------------
 -- Records of zy_biz_prowled
 -- ----------------------------
-INSERT INTO `zy_biz_prowled` VALUES ('6', '4', '2016-11-13', '3', '60', '3', '', '2016-11-20 11:25:50', '1', '/Public/upload/20161120/583117be866a4.jpg', '/Public/upload/20161120/583117be885e4.jpg', '/Public/upload/20161120/583117be8996c.jpg', '1');
-INSERT INTO `zy_biz_prowled` VALUES ('7', '4', '2016-11-14', '3', '70', '3', '', '2016-11-20 11:26:20', '1', null, null, null, '1');
-INSERT INTO `zy_biz_prowled` VALUES ('8', '4', '2016-11-15', '3', '80', '2', '', '2016-11-20 11:26:43', '1', null, null, null, '1');
-INSERT INTO `zy_biz_prowled` VALUES ('9', '4', '2016-11-16', '3', '86', '2', '', '2016-11-20 11:27:40', '1', null, null, null, '1');
+INSERT INTO `zy_biz_prowled` VALUES ('6', '4', '2016-11-13', '3', '58', '3', '', '2016-11-20 11:25:50', '1', '/Public/upload/20161120/583117be866a4.jpg', '/Public/upload/20161120/583117be885e4.jpg', '/Public/upload/20161120/583117be8996c.jpg', '1');
+INSERT INTO `zy_biz_prowled` VALUES ('7', '4', '2016-11-14', '3', '58', '3', '', '2016-11-20 11:26:20', '1', null, null, null, '1');
+INSERT INTO `zy_biz_prowled` VALUES ('8', '4', '2016-11-15', '3', '58', '2', '', '2016-11-20 11:26:43', '1', null, null, null, '1');
+INSERT INTO `zy_biz_prowled` VALUES ('9', '4', '2016-11-16', '3', '56', '2', '', '2016-11-20 11:27:40', '1', null, null, null, '1');
 INSERT INTO `zy_biz_prowled` VALUES ('10', '4', '2016-11-19', '3', '95', '1', '', '2016-11-20 11:27:59', '1', null, null, null, '1');
-INSERT INTO `zy_biz_prowled` VALUES ('11', '3', '2016-11-13', '3', '70', '3', '', '2016-11-20 11:28:27', '1', null, null, null, '1');
+INSERT INTO `zy_biz_prowled` VALUES ('11', '3', '2016-11-13', '3', '70', '5', '', '2016-11-20 11:28:27', '1', null, null, null, '1');
 INSERT INTO `zy_biz_prowled` VALUES ('12', '4', '2016-11-17', '3', '95', '1', '', '2016-11-20 12:16:44', '1', '/Public/upload/20161120/583123aca22b9.jpg', null, null, '0');
+INSERT INTO `zy_biz_prowled` VALUES ('13', '6', '2016-11-21', '3', '78', '5', '', '2016-11-21 23:46:16', '2', null, null, null, '1');
 
 -- ----------------------------
 -- Table structure for `zy_business`
@@ -112,17 +134,18 @@ CREATE TABLE `zy_business` (
   `business_license` varchar(255) COLLATE utf8_bin DEFAULT NULL COMMENT '营业执照号',
   `type_id` bigint(20) DEFAULT NULL COMMENT '企业类别id',
   `business_license_link` varchar(412) COLLATE utf8_bin DEFAULT NULL COMMENT '营业执照地址',
+  `area_id` bigint(20) DEFAULT NULL COMMENT '地区id',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- ----------------------------
 -- Records of zy_business
 -- ----------------------------
-INSERT INTO `zy_business` VALUES ('4', '公司1', '2016-11-15 23:34:49', '1', '1', '', '九江市十里大楼', '2016-11-16', '1829789065', '李四', '343599877374834993', '3', '/Public/upload/20161120/583115c16e75d.jpg');
-INSERT INTO `zy_business` VALUES ('3', '公司2', '2016-11-04 21:48:41', '1', '1', '', '九江国棉四场', '2016-10-10', '12354656771', '王五', '1659430308372992', '3', '/Public/upload/20161120/583115f9c2fcc.jpg');
-INSERT INTO `zy_business` VALUES ('5', '公司3', '2016-11-16 21:51:45', '1', '1', '', '九江市十里大楼', '2000-02-01', '15189675972', '张三', '4928292300383902098', '5', '/Public/upload/20161120/5831150dc3d7a.jpg');
-INSERT INTO `zy_business` VALUES ('6', '公司4', '2016-11-20 11:21:31', '1', '1', '', '九江市国棉四厂', '2016-10-31', '18293847485', '赵六', '9450489378030092', '5', '/Public/upload/20161120/583116bbc18bc.jpg');
-INSERT INTO `zy_business` VALUES ('7', '公司5', '2016-11-20 12:15:16', '1', '0', '', '九江市', '2016-11-14', '1828938933', '张三', '234235229asasdasd', '2', '/Public/upload/20161120/5831235432956.jpg');
+INSERT INTO `zy_business` VALUES ('4', '公司1', '2016-11-15 23:34:49', '1', '1', '', '九江市十里大楼', '2016-11-16', '1829789065', '李四', '343599877374834993', '3', '/Public/upload/20161120/583115c16e75d.jpg', '2');
+INSERT INTO `zy_business` VALUES ('3', '公司2', '2016-11-04 21:48:41', '1', '1', '', '九江国棉四场', '2016-10-10', '12354656771', '王五', '1659430308372992', '3', '/Public/upload/20161120/583115f9c2fcc.jpg', '1');
+INSERT INTO `zy_business` VALUES ('5', '公司3', '2016-11-16 21:51:45', '1', '1', '', '九江市十里大楼', '2000-02-01', '15189675972', '张三', '4928292300383902098', '5', '/Public/upload/20161120/5831150dc3d7a.jpg', null);
+INSERT INTO `zy_business` VALUES ('6', '公司4', '2016-11-20 11:21:31', '1', '1', '', '九江市国棉四厂', '2016-10-31', '18293847485', '赵六', '9450489378030092', '5', '/Public/upload/20161120/583116bbc18bc.jpg', '2');
+INSERT INTO `zy_business` VALUES ('7', '公司5', '2016-11-20 12:15:16', '1', '0', '', '九江市', '2016-11-14', '1828938933', '张三', '234235229asasdasd', '2', '/Public/upload/20161120/5831235432956.jpg', null);
 
 -- ----------------------------
 -- Table structure for `zy_business_type`
@@ -193,6 +216,30 @@ INSERT INTO `zy_prowled_obj` VALUES ('3', '企业对象1', '1', '', '2016-11-19 
 INSERT INTO `zy_prowled_obj` VALUES ('4', '企业对象2', '1', '', '2016-11-19 17:08:56', '1', '1');
 INSERT INTO `zy_prowled_obj` VALUES ('5', '地区巡查对象1', '2', '', '2016-11-19 17:24:22', '1', '1');
 INSERT INTO `zy_prowled_obj` VALUES ('6', '地区巡查对象2', '2', '地区巡查对象2', '2016-11-19 17:24:37', '1', '1');
+
+-- ----------------------------
+-- Table structure for `zy_score_set`
+-- ----------------------------
+DROP TABLE IF EXISTS `zy_score_set`;
+CREATE TABLE `zy_score_set` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `start` bigint(20) DEFAULT NULL,
+  `end` bigint(20) DEFAULT NULL,
+  `name` varchar(255) COLLATE utf8_bin DEFAULT NULL COMMENT '标准名称',
+  `ctime` datetime DEFAULT NULL,
+  `cuid` bigint(20) DEFAULT NULL,
+  `is_valid` bigint(20) DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ----------------------------
+-- Records of zy_score_set
+-- ----------------------------
+INSERT INTO `zy_score_set` VALUES ('1', '0', '49', '差', '2016-11-21 21:56:36', '1', '1');
+INSERT INTO `zy_score_set` VALUES ('4', '50', '59', '未达标', '2016-11-21 22:20:19', '1', '1');
+INSERT INTO `zy_score_set` VALUES ('5', '60', '79', '达标', '2016-11-21 22:20:34', '1', '1');
+INSERT INTO `zy_score_set` VALUES ('6', '80', '89', '良好', '2016-11-21 22:20:53', '1', '1');
+INSERT INTO `zy_score_set` VALUES ('7', '90', '100', '优秀', '2016-11-21 22:21:09', '1', '1');
 
 -- ----------------------------
 -- Table structure for `zy_user`
