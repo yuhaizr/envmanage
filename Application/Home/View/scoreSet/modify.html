@@ -1,0 +1,79 @@
+<extend name="Public:base" />
+
+
+<block name="body">
+     <div class="row">
+         <div class="col-lg-12 col-sm-12 col-xs-12">
+             <div class="row">
+                 <div class="col-xs-12">
+                     <div class="widget radius-bordered">
+                         <div class="widget-header">
+                             <span class="widget-caption">评分标准信息</span>      
+                         </div>
+                         <div class="widget-body">
+                          
+    
+    					 <form action="__URL__/save" method="post"  ><!--enctype="multipart/form-data"  -->
+    					 				<notempty name="info">
+    					 					<input type="hidden" class="form-control"  name="id" value="{$info.id}" >
+    					 				 </notempty>
+					        
+					                    <div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">标准名称</label>
+		                                     <div class="col-lg-6">
+		                                         <input required="required"  type="text" class="form-control"  name="name" id="name"  value="{$info.name}" >
+		                                         
+		                                     </div>
+					                    </div>
+							           	<div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;" >开始分数</label>
+		                                     <div class="col-lg-3">
+		                                   
+		                                         <input  required="required" type="text" class="form-control " required="required"  name="start" id="start"   value="{$info.start}" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"  > 
+		                                     </div>
+					                    </div>
+						 				
+							           	<div class='row'>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;" >结束分数</label>
+		                                     <div class="col-lg-3">
+		                                   
+		                                         <input  required="required" type="text" class="form-control " required="required"  name="end" id="end"   value="{$info.end}" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"  > 
+		                                     </div>
+					                    </div>
+						 										 					                    					
+									                    
+					     				 <div class='row' style="margin-top: 20px;margin-bottom: 20px;">
+					                    	<div class='col-lg-4 col-lg-offset-5'>
+					                    	<input class="btn btn-palegreen" type="submit" id="saveRecord" value="保存评分标准">
+					                    	</div>
+					                    </div>
+					               		</form>
+    
+    
+    
+    
+                     </div>
+                 </div>                 
+             </div>
+             
+         </div>
+     </div>
+
+ </block>
+ 
+<block name="footjs">
+
+<style type="text/css">
+	.select2-container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+</style>
+<script type="text/javascript">
+
+	
+
+
+
+</script>
+</block>

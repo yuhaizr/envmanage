@@ -3,24 +3,21 @@ namespace Home\Model;
 
 use Think\Page;
 use Home\Model\BaseModel;
-class BusinessModel extends BaseModel
+class AreaModel extends BaseModel
 {
-    public function showList($searchValue,$type_id){
+    public function showList($searchValue){
     
         $paramer = array(
             'searchValue' => $searchValue,
-            'type_id' => $type_id
         );
     
-        $model = M('Business');
+        $model = M('Area');
         $where = array();
         $where['is_valid'] = '1';
         if ($searchValue){
             $where['_string'] = " name LIKE  '%".$searchValue."%' ";
         }
-        if ($type_id){
-            $where['type_id'] = $type_id;
-        }
+    
     
         $total = $model->where($where)->count();
     
@@ -39,26 +36,22 @@ class BusinessModel extends BaseModel
     }
     
     private function fixList($list){
-        $business_type = M("Business_type");
-        $area = M("Area");
+        $user = M("User");
+        
         if (is_array($list)){
             foreach ($list as $key => &$val){
-                if (isset($val['type_id']) && $val['type_id']){
-                    $where['id'] = $val['type_id'];
-                    $info = $business_type->where($where)->find();
+                if (isset($val['uid']) && $val['uid']){
+                    $where = array();
+                    $where['is_valid'] = '1';
+                    $where['id'] = $val['uid'];
+                    $info = $user->where($where)->find();
                     if ($info){
-                        $val['type_id'] = $info['name'];
+                        $val['uid'] = $info['nickname'];
+                    }else{
+                        $val['uid'] = '';
                     }
                 }
-               
-                if (isset($val['area_id']) && $val['area_id']){
-                  $where = array();
-                  $where['id'] = $val['area_id'];
-                  $info = $area->where($where)->find();
-                  if ($info){
-                      $val['area_id'] = $info['name'];
-                  }
-                }
+      
             }
     
         }

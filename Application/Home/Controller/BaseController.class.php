@@ -184,7 +184,7 @@ class BaseController extends Controller
      * 1、优秀90-100     2、良好80-89   3、达标60-79  4、未达标50-59   5、差0-49
      * @param unknown $score
      */
-    public function getLevelByScore($score){
+    public function getLevelByScore2($score){
         $score = intval($score);
         if ($score >= 0 && $score <= 49){
             return 5;
@@ -200,6 +200,27 @@ class BaseController extends Controller
             return 0;
         }
     }
+    
+    public function getLevelByScore($score){
+        
+        $score = intval($score);
+        $model = M('Score_set');
+        $where['is_valid'] = 1;
+        $score_set_list =  $model->where($where)->select();
+        
+        foreach ($score_set_list as $key => $val){
+            $start = $val['start'];
+            $end = $val['end'];
+            $id = $val['id'];
+            if ($score >= $start && $score <= $end ){
+                return $id;
+            }
+         }
+         
+         return 0;
+        
+    }
+
     
 }
 

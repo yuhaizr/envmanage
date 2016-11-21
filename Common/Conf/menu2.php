@@ -34,7 +34,15 @@ return array(
             array(
                 'title' => '区域日常巡查情况列表',
                 'link' => '/Home/AreaProwled/showList?type=menu'
-            ),                      
+            ),  
+            array(
+                'title' => '重点巡查区域对象',
+                'link' => '/Home/AreaProwled/mostList?type=menu'
+            ),
+            array(
+                'title' => '重点巡查企业对象',
+                'link' => '/Home/BizProwled/mostList?type=menu'
+            ),            
         )
     ),
     array(
@@ -62,7 +70,10 @@ return array(
 		                'link' => '/Home/ProwledObj/showList?type=menu'
 		        ),
 
-		    
+			    array(
+			        'title' => '地区信息列表',
+			        'link' => '/Home/Area/showList?type=menu'
+			    ),
 			)
 	),	
     array(

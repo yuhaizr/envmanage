@@ -24,7 +24,7 @@
     <link href="/envmanage/Public/css/skins/deepblue.min.css" rel="stylesheet"  type="text/css" />
  	
 	<script type="text/javascript">
-	var __URL = '/envmanage/index.php/Home/Business';
+	var __URL = '/envmanage/index.php/Home/Area';
 	var __APP = '/envmanage/index.php';
 	var __PUBLIC = '/envmanage/Public';
 	var __AJAX;
@@ -363,97 +363,46 @@
                  <div class="col-xs-12">
                      <div class="widget radius-bordered">
                          <div class="widget-header">
-                             <span class="widget-caption">公司信息</span>      
+                             <span class="widget-caption">地区信息</span>      
                          </div>
                          <div class="widget-body">
                           
     
-    					 <form action="/envmanage/index.php/Home/Business/save" method="post"  enctype="multipart/form-data" ><!--  -->
+    					 <form action="/envmanage/index.php/Home/Area/add" method="post"  ><!--enctype="multipart/form-data"  -->
     					 				<?php if(!empty($info)): ?><input type="hidden" class="form-control"  name="id" value="<?php echo ($info["id"]); ?>" ><?php endif; ?>
 					        
 					                    <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">公司名称</label>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">地区信息名称</label>
 		                                     <div class="col-lg-6">
-		                                         <input required="required"  type="text" class="form-control"  name="name" id="name"  value="<?php echo ($info["name"]); ?>" >
+		                                         <input type="text" class="form-control"  name="name" id="name" required="required" value="<?php echo ($info["name"]); ?>" >
 		                                         
 		                                     </div>
+	
 					                    </div>
+					                    
 					                    <div class='row'>
-					                    	<label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">公司类别</label>
-						 					<div class="col-sm-4">
-				 					
-							 					<select required="required"  id='type_id_select' name='type_id' >
-											    	<option value=''> 请选择公司类别</option>
-											    	<?php if(is_array($business_type_list)): foreach($business_type_list as $key=>$vo): ?><option <?php if( $info['type_id'] == $vo["id"] ): ?>selected="selected"<?php endif; ?> value='<?php echo ($vo["id"]); ?>'><?php echo ($vo["name"]); ?></option><?php endforeach; endif; ?>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;" >负责人</label>
+		                                     <div class="col-lg-3">
+		                                   
+		                                      	<select required="required"  id='business_id_select' name='uid' >
+											    	<option value=''> 请选择负责人</option>
+											    	<?php if(is_array($user_list)): foreach($user_list as $key=>$vo): ?><option <?php if($info['uid'] == $vo["id"] ): ?>selected="selected"<?php endif; ?> value='<?php echo ($vo["id"]); ?>'><?php echo ($vo["nickname"]); ?></option><?php endforeach; endif; ?>
 											    	
-											 	</select> 
-						 					
-						 					</div>
-						 				</div>	
-                 						<div class='row'>
-					                    	<label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">地区</label>
-						 					<div class="col-sm-4">
-				 					
-							 					<select required="required"  id='area_list_select' name='area_id' >
-											    	<option value=''> 请选择地区</option>
-											    	<?php if(is_array($area_list)): foreach($area_list as $key=>$vo): ?><option <?php if( $info['area_id'] == $vo["id"] ): ?>selected="selected"<?php endif; ?> value='<?php echo ($vo["id"]); ?>'><?php echo ($vo["name"]); ?></option><?php endforeach; endif; ?>
-											    	
-											 	</select> 
-						 					
-						 					</div>
-						 				</div>							 				
-						 				 <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">公司地址</label>
-		                                     <div class="col-lg-4">
-		                                         <input required="required"  type="text" class="form-control"  name="addr" id="addr"  value="<?php echo ($info["addr"]); ?>" >
-		                                         
-		                                     </div>
-					                    </div>
-						 				 <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">成立日期</label>
-		                                     <div class="col-lg-6">
-		                                         <input readonly="readonly" type="text" class="form-control dateView"  name="cdate" id="cdate"   value="<?php echo ($info["cdate"]); ?>"  >
-		                                     </div>
-					                    </div>					                    
-							 			<div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">法人代表</label>
-		                                     <div class="col-lg-6">
-		                                         <input   type="text" class="form-control"  name="legal_person" id="legal_person"  value="<?php echo ($info["legal_person"]); ?>" >
-		                                     </div>
-					                    </div>				                    
-							 			<div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">法人代表联系方式</label>
-		                                     <div class="col-lg-6">
-		                                         <input   type="text" class="form-control"  name="legal_person_phone" id="legal_person_phone"  value="<?php echo ($info["legal_person_phone"]); ?>" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"  >
+										 		</select>  
 		                                     </div>
 					                    </div>	
-							 			<div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">营业执照号</label>
-		                                     <div class="col-lg-6">
-		                                         <input   type="text" class="form-control"  name="business_license" id="business_license"  value="<?php echo ($info["business_license"]); ?>" >
-		                                     </div>
-					                    </div>	
-					                    <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">营业执照号图片</label>
-		                                     <div class="col-lg-2">
-		                                         <input type="file" class="form-control"  name="business_license_link"  >
-		                                     </div>
-		                                     <?php if(!empty($info['business_license_link'])): ?><div class="col-lg-2">
-		                                     	<img class='imgdiv' alt="单击查看大图" style="width: 150px;100px;" src="/envmanage/<?php echo ($info['business_license_link']); ?>">
-		                                     </div><?php endif; ?>
-					                    </div>	
-					                    					                    					
+					
 					                     <div class='row'>
-				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">备注</label>
+				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">描述</label>
 		                                     <div class="col-lg-6">
 		                      
-		                                         <textarea name='mark' id='mark' rows="10" cols="100" ><?php echo ($info["mark"]); ?></textarea>
+		                                         <textarea name='des' id='des' rows="10" cols="100" ><?php echo ($info["des"]); ?></textarea>
 		                                         
 		                                     </div>
 					      				 </div>						                    
 					     				 <div class='row' style="margin-top: 20px;margin-bottom: 20px;">
 					                    	<div class='col-lg-4 col-lg-offset-5'>
-					                    	<input class="btn btn-palegreen" type="submit" id="saveRecord" value="保存公司类别">
+					                    	<input class="btn btn-palegreen" type="submit" id="saveRecord" value="保存地区信息">
 					                    	</div>
 					                    </div>
 					               		</form>
@@ -604,7 +553,29 @@
 </style>
 <script type="text/javascript">
 
+	$(function(){
+		$('#start_time').timepicker({'showMeridian':false});
+		$('#end_time').timepicker({'showMeridian':false});
+	});
+
+
+
+	$('.yearView').datetimepicker({
+		autoclose: true,
+		startView:3,minView:3,
+        lang:"ch",           
+        format:"yyyy-mm",      
+        timepicker:false,  
+    
+        minDate: 0,   
+  
+        });
 	
+$(".bfjl_img").click(function(){
+	//window.open($(this).attr('file'),'_blank');
+	var filepath = $(this).attr("file");
+	location.href = "/envmanage/Home/Upload/downFile?filepath="+filepath;
+});
 
 
 

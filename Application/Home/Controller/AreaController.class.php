@@ -1,44 +1,31 @@
 <?php
 namespace Home\Controller;
-use Home\Model\BusinessModel;
-use Home\Controller\BaseController;
+use Home\Model\AreaModel;
 
 
-class BusinessController extends BaseController {
-    
+class AreaController extends BaseController {
     public function __construct(){
         parent::__construct();
-        
-        $model = M('Business_type');
-        $where['is_valid'] = '1';
-        $business_type_list = $model->where($where)->select();
-        $this->assign('business_type_list',$business_type_list);
-        
-        $area = M('Area');
-        $where = array();
-        $where['is_valid'] = '1';
-        $area_list = $area->where($where)->select();
-        $this->assign('area_list',$area_list);
-        
+        $where['is_valid'] = 1;
+        $user = M("User");
+        $user_list = $user->where($where)->select();
+        $this->assign('user_list',$user_list);
     }
-    
 
     public function showList(){
         $searchValue = I('searchValue');
-        $type_id = I("type_id");
      
-        $model = new BusinessModel();
-        $data = $model->showList($searchValue,$type_id);
+        $model = new AreaModel();
+        $data = $model->showList($searchValue);
     
         $this->assign('list',$data['list']);
         $this->assign('page',$data['page']);
         $this->assign('searchValue',$searchValue);
-        $this->assign('type_id',$type_id);
         $this->display();
     }
     
     public function detail(){
-        $model = M('Business');
+        $model = M('Area');
         $id = I('id');
         if (isset($id) && $id){
             $where['id'] = $id;
@@ -50,7 +37,7 @@ class BusinessController extends BaseController {
         $this->display();
     }
     public function modify(){
-        $model = M('Business');
+        $model = M('Area');
         $id = I('id');
         if (isset($id) && $id){
             $where['id'] = $id;
@@ -66,24 +53,11 @@ class BusinessController extends BaseController {
             $this->display();exit();
         }
         $data = $_POST;
-        $model = M('Business');
+        $model = M('Area');
         $this->check($data,"add?type=menu");
     
         $data['ctime'] = date('Y-m-d H:i:s');
         $data['cuid'] = $_SESSION['id'];
-        
-        if ($_FILES['business_license_link']['name'] ){
-            $imageinfo = $this->saveImage();
-            if(isset($imageinfo['business_license_link']) && $imageinfo['business_license_link']){
-                $data['business_license_link'] = $imageinfo['business_license_link'];
-            }else{
-                unset($data['business_license_link']);
-            }
-        
-        }else{
-            unset($data['business_license_link']);
-        }
-        
         $res = $model->add($data);
         if ($res == false){
             $this->error('添加失败');
@@ -96,26 +70,13 @@ class BusinessController extends BaseController {
     public function save(){
         $id = I('id');
         $data = $_POST;
-        $model = M('Business');
+        $model = M('Area');
         $this->check($data,"modify?id=".$id);
     
     
         if (isset($id) && $id){
     
             $where['id'] = $id;
-
-            if ($_FILES['business_license_link']['name'] ){
-                $imageinfo = $this->saveImage();
-                if(isset($imageinfo['business_license_link']) && $imageinfo['business_license_link']){
-                    $data['business_license_link'] = $imageinfo['business_license_link'];
-                }else{
-                    unset($data['business_license_link']);
-                }
-            
-            }else{
-                unset($data['business_license_link']);
-            }
-            
             $res = $model->where($where)->save($data);
              
             if ($res === false){
@@ -133,7 +94,7 @@ class BusinessController extends BaseController {
     public function del(){
         $id = I('id');
     
-        $model = M('Business');
+        $model = M('Area');
     
         if (isset($id) && $id){
             $data['is_valid'] = '0';
@@ -155,7 +116,9 @@ class BusinessController extends BaseController {
         if (isset($data['name']) && mbstrlen($data['name']) > 30 ){
             $this->error('类型名称必须小于30字',$gourl);
         }
-
+        if (isset($data['des']) && $data['des'] && mbstrlen($data['des']) > 200 ){
+            $this->error('地区必须小于200字',$gourl);
+        }
 
     
     }

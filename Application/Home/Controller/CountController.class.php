@@ -46,7 +46,7 @@ class CountController extends BaseController {
         $this->assign('legend',$res['legend']);
         $this->assign('data',$res['data']);
         $this->assign('avgdata',$res['avgdata']);
-        
+        $this->assign('searchDate',$searchDate);
 
         
         $this->display();
@@ -87,7 +87,7 @@ class CountController extends BaseController {
         $this->assign('legend',$res['legend']);
         $this->assign('data',$res['data']);
         $this->assign('avgdata',$res['avgdata']);
-        
+        $this->assign('searchDate',$searchDate);
 
         
         $this->display();

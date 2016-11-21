@@ -10,6 +10,7 @@ class BizProwledController extends BaseController {
         parent::__construct();
         
         $model = M('Business_type');
+        $where = array();
         $where['is_valid'] = '1';
         $business_type_list = $model->where($where)->select();
         $this->assign('business_type_list',$business_type_list);
@@ -19,10 +20,38 @@ class BizProwledController extends BaseController {
             ||strstr(__ACTION__, 'add')
             ){ */
             $business= M('Business');
-            $business_list = $business->where($where)->select();
+            $where = array();
+            $business_list = array();
+            if ($_SESSION['type'] == 2){
+                $uid = $_SESSION['id'];
+                $area_where['is_valid'] = '1';
+                $area_where['uid'] = $uid;
+                $area = M('Area');
+                $areaList = $area->where($area_where)->select();
+                $areaid = array();
+                if ($areaList){
+                    
+                    foreach ($areaList as $key => $val){
+                        $areaid[] = $val['id'];
+                    }
+                }
+                
+                if ($areaid){
+                    $where['area_id'] = array('in',$areaid);
+                    $where['is_valid'] = '1';
+                    $business_list = $business->where($where)->select();
+                    
+                }
+                
+            }else{
+                $where['is_valid'] = '1';
+                $business_list = $business->where($where)->select();
+            }
             $this->assign('business_list',$business_list);
             
             $prowled_obj = M('Prowled_obj');
+            $where = array();
+            $where['is_valid'] = '1';
             $where['type_id'] = '1';
             $biz_prowled_obj_list = $prowled_obj->where($where)->select();
             $this->assign('biz_prowled_obj_list',$biz_prowled_obj_list);
@@ -202,5 +231,40 @@ class BizProwledController extends BaseController {
 
     
     }
+    
+    
+    /**
+     * 重点巡查企业
+     */
+    public function mostList(){
+        $model = M('Business');
+        $where['is_valid'] = '1';
+        $business_list = $model->where($where)->select();
+        
+        $biz_prowled = M("biz_prowled");
+        foreach ($business_list as $key => $val){
+            $item = array();
+            $where = array();
+            $where['business_id'] = $val['id'];
+            $where['is_valid'] = '1';
+            $where['score'] = array('lt',60);
+            $month_ago = date("Y-m-d",strtotime("-1 month - day"));
+            $where['_string']  = " date >= '{$month_ago}' ";
+            $num = $biz_prowled->where($where)->count();
+
+            if ($num >= 3){
+                $item['id'] = $val['id'];
+                $item['name'] = $val['name'];
+                $item['num'] = $num;
+                $list[] = $item;
+            }
+    
+        }
+        $this->assign('list',$list);
+
+        $this->display();
+    }
+    
+    
     
 }

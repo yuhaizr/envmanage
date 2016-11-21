@@ -1,44 +1,36 @@
 <?php
 namespace Home\Controller;
-use Home\Model\BusinessModel;
+use Home\Model\ScoreSetModel;
 use Home\Controller\BaseController;
 
 
-class BusinessController extends BaseController {
+class ScoreSetController extends BaseController {
     
     public function __construct(){
         parent::__construct();
         
-        $model = M('Business_type');
-        $where['is_valid'] = '1';
-        $business_type_list = $model->where($where)->select();
-        $this->assign('business_type_list',$business_type_list);
         
-        $area = M('Area');
-        $where = array();
-        $where['is_valid'] = '1';
-        $area_list = $area->where($where)->select();
-        $this->assign('area_list',$area_list);
-        
+
     }
     
 
     public function showList(){
         $searchValue = I('searchValue');
-        $type_id = I("type_id");
+        $prowled_obj_id = I("prowled_obj_id");
+        $business_id= I("business_id");
      
-        $model = new BusinessModel();
-        $data = $model->showList($searchValue,$type_id);
+        $model = new ScoreSetModel();
+        $data = $model->showList($business_id,$prowled_obj_id);
     
         $this->assign('list',$data['list']);
         $this->assign('page',$data['page']);
-        $this->assign('searchValue',$searchValue);
-        $this->assign('type_id',$type_id);
+        $this->assign('business_id',$business_id);
+        $this->assign('prowled_obj_id',$prowled_obj_id);
         $this->display();
     }
     
     public function detail(){
-        $model = M('Business');
+        $model = M('Score_set');
         $id = I('id');
         if (isset($id) && $id){
             $where['id'] = $id;
@@ -50,11 +42,12 @@ class BusinessController extends BaseController {
         $this->display();
     }
     public function modify(){
-        $model = M('Business');
+        $model = M('Score_set');
         $id = I('id');
         if (isset($id) && $id){
             $where['id'] = $id;
             $info = $model->where($where)->find();
+           
             $this->assign('info',$info);
         }else{
             $this->error('id缺失');
@@ -66,24 +59,12 @@ class BusinessController extends BaseController {
             $this->display();exit();
         }
         $data = $_POST;
-        $model = M('Business');
+        $model = M('Score_set');
         $this->check($data,"add?type=menu");
     
         $data['ctime'] = date('Y-m-d H:i:s');
         $data['cuid'] = $_SESSION['id'];
-        
-        if ($_FILES['business_license_link']['name'] ){
-            $imageinfo = $this->saveImage();
-            if(isset($imageinfo['business_license_link']) && $imageinfo['business_license_link']){
-                $data['business_license_link'] = $imageinfo['business_license_link'];
-            }else{
-                unset($data['business_license_link']);
-            }
-        
-        }else{
-            unset($data['business_license_link']);
-        }
-        
+       
         $res = $model->add($data);
         if ($res == false){
             $this->error('添加失败');
@@ -96,7 +77,8 @@ class BusinessController extends BaseController {
     public function save(){
         $id = I('id');
         $data = $_POST;
-        $model = M('Business');
+        $model = M('Score_set');
+    
         $this->check($data,"modify?id=".$id);
     
     
@@ -104,18 +86,6 @@ class BusinessController extends BaseController {
     
             $where['id'] = $id;
 
-            if ($_FILES['business_license_link']['name'] ){
-                $imageinfo = $this->saveImage();
-                if(isset($imageinfo['business_license_link']) && $imageinfo['business_license_link']){
-                    $data['business_license_link'] = $imageinfo['business_license_link'];
-                }else{
-                    unset($data['business_license_link']);
-                }
-            
-            }else{
-                unset($data['business_license_link']);
-            }
-            
             $res = $model->where($where)->save($data);
              
             if ($res === false){
@@ -133,7 +103,7 @@ class BusinessController extends BaseController {
     public function del(){
         $id = I('id');
     
-        $model = M('Business');
+        $model = M('Score_set');
     
         if (isset($id) && $id){
             $data['is_valid'] = '0';
@@ -152,11 +122,39 @@ class BusinessController extends BaseController {
         }
     }
     private function check($data,$gourl){
-        if (isset($data['name']) && mbstrlen($data['name']) > 30 ){
-            $this->error('类型名称必须小于30字',$gourl);
+
+        if (isset($data['id']) && $data['id']){
+            $where['_string'] = " id != {$data['id']} "; 
         }
-
-
+        $model = M('Score_set');
+        $where['is_valid'] = '1';
+        $score_set_list = $model->where($where)->select();
+        if (isset($data['start']) ){
+            foreach ($score_set_list as $key => $val){
+                $start = $val['start'];
+                $end = $val['end'];
+                if ($data['start'] >= $start && $data['start'] <= $end ){
+                    $this->error("评分范围不能交叉设置",$gourl);
+                }
+            }
+        }
+       
+        if (isset($data['end']) ){
+            foreach ($score_set_list as $key => $val){
+                $start = $val['start'];
+                $end = $val['end'];
+                if ($data['end'] >= $start && $data['end'] <= $end ){
+                    $this->error("评分范围不能交叉设置",$gourl);
+                }
+            }
+        }       
+        
+        if ($data['start'] > 100 || $data['end'] > 100) {
+            $this->error('评分范围不能大于100',$gourl);
+        }
+        
+        
+        
     
     }
     

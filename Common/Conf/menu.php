@@ -45,7 +45,16 @@ return array(
             array(
                 'title' => '区域日常巡查情况列表',
                 'link' => '/Home/AreaProwled/showList?type=menu'
-            ),                      
+            ), 
+            array(
+                'title' => '重点巡查区域对象',
+                'link' => '/Home/AreaProwled/mostList?type=menu'
+            ),
+            array(
+                'title' => '重点巡查企业对象',
+                'link' => '/Home/BizProwled/mostList?type=menu'
+            ),
+
         )
     ),
     array(
@@ -84,7 +93,22 @@ return array(
 		                'title' => '巡查对象列表',
 		                'link' => '/Home/ProwledObj/showList?type=menu'
 		        ),
-
+			    array(
+			        'title' => '添加评分标准',
+			        'link' => '/Home/scoreSet/add?type=menu'
+			    ),
+			    array(
+			        'title' => '评分标准设置',
+			        'link' => '/Home/scoreSet/showList?type=menu'
+			    ),
+			    array(
+			        'title' => '添加地区信息',
+			        'link' => '/Home/Area/add?type=menu'
+			    ),
+			    array(
+			        'title' => '地区信息列表',
+			        'link' => '/Home/Area/showList?type=menu'
+			    ),			     
 		    
 			)
 	),	

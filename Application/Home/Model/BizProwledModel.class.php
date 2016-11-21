@@ -46,6 +46,10 @@ class BizProwledModel extends BaseModel
         $business_type = M("Business_type");
         $business = M("Business");
         
+        $model = M('Score_set');
+        $where['is_valid'] = 1;
+        $score_set_list =  $model->where($where)->select();
+        
         if (is_array($list)){
             foreach ($list as $key => &$val){
                 if (isset($val['business_id']) && $val['business_id']){
@@ -65,7 +69,21 @@ class BizProwledModel extends BaseModel
                 }
                 $score = $val['score'];
                 if (isset($val['level'])){
-                    if ($score >= 0 && $score <= 49){
+                    $flag = 0;
+                    foreach ($score_set_list as $k => $v){
+                        $start = $v['start'];
+                        $end = $v['end'];
+                        $name = $v['name'];
+                        if ($score >= $start && $score <= $end ){
+                           $val['level'] = $name;
+                           $flag = 1;
+                        }
+                    }
+                    if (!$flag){
+                        $val['level'] = '未设置标准分数';
+                    }
+                    
+      /*               if ($score >= 0 && $score <= 49){
                         $val['level'] = '差';
                     }elseif ($score <= 59){
                         $val['level'] = '未达标';
@@ -77,7 +95,7 @@ class BizProwledModel extends BaseModel
                         $val['level'] = '优秀';
                     }else{
                         $val['level'] = '分数异常';
-                    }
+                    } */
                 }
                 
                 if (isset($val['prowled_obj_id']) && $val['prowled_obj_id']){

@@ -24,7 +24,7 @@ class AreaProwledController extends BaseController {
             $biz_prowled_obj_list = $prowled_obj->where($where)->select();
             $this->assign('biz_prowled_obj_list',$biz_prowled_obj_list); */
  
-            
+
             $where['type_id'] = '2';
             $area_prowled_obj_list = $prowled_obj->where($where)->select();
             $this->assign('area_prowled_obj_list',$area_prowled_obj_list); 
@@ -202,5 +202,43 @@ class AreaProwledController extends BaseController {
 
     
     }
+    
+    
+    
+    
+    /**
+     * 重点巡查区域对象
+     */
+    public function mostList(){
+        $list = array();
+        $prowled_obj = M('Prowled_obj');
+        $where['type_id'] = '2';
+        $area_prowled_obj_list = $prowled_obj->where($where)->select();
+        $area_prowled = M("Area_prowled");  
+        foreach ($area_prowled_obj_list as $key => $val){
+            $item = array();
+            $where = array();
+            $where['prowled_obj_id'] = $val['id'];
+            $where['is_valid'] = '1';
+            $where['score'] = array('lt',60);
+            $month_ago = date("Y-m-d",strtotime("-1 month - day"));
+            $where['_string']  = " date >= '{$month_ago}' ";
+            $num = $area_prowled->where($where)->count();
+
+            if ($num >= 3){
+                $item['id'] = $val['id'];
+                $item['name'] = $val['name'];
+                $item['num'] = $num;
+                $list[] = $item;
+            }
+            
+        }
+        $this->assign('list',$list);
+       
+        $this->display();
+    }
+    
+    
+    
     
 }

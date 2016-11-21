@@ -413,6 +413,7 @@
 								<th>序号</th>
 								<th>名称</th>
 								<th>企业类型</th>
+								<th>地区</th>
 								<th>企业地址</th>
 								<th>法人代表</th>
 								<th>法人代表电话</th>
@@ -428,6 +429,7 @@
 								<td><?php echo ($key+1); ?></td>
 							    <td><?php echo ($vo["name"]); ?></td>
 							    <td><?php echo ($vo["type_id"]); ?></td>
+							    <td><?php echo ($vo["area_id"]); ?></td>
 		                        <td><?php echo ($vo["addr"]); ?></td> 
 		                        <td><?php echo ($vo["legal_person"]); ?></td>  
 		                        <td><?php echo ($vo["legal_person_phone"]); ?></td>   
