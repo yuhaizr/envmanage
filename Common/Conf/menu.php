@@ -95,11 +95,11 @@ return array(
 		        ),
 			    array(
 			        'title' => '添加评分标准',
-			        'link' => '/Home/scoreSet/add?type=menu'
+			        'link' => '/Home/ScoreSet/add?type=menu'
 			    ),
 			    array(
 			        'title' => '评分标准设置',
-			        'link' => '/Home/scoreSet/showList?type=menu'
+			        'link' => '/Home/ScoreSet/showList?type=menu'
 			    ),
 			    array(
 			        'title' => '添加地区信息',

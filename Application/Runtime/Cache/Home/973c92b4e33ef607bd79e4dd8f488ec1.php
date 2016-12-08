@@ -390,6 +390,18 @@
 						 					
 						 					</div>
 						 				</div>	
+        						  <div class='row'>
+					                    	<label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">地区</label>
+						 					<div class="col-sm-4">
+				 					
+							 					<select required="required"  id='area_list_select' name='area_id' >
+											    	<option value=''> 请选择地区</option>
+											    	<?php if(is_array($area_list)): foreach($area_list as $key=>$vo): ?><option <?php if( $info['area_id'] == $vo["id"] ): ?>selected="selected"<?php endif; ?> value='<?php echo ($vo["id"]); ?>'><?php echo ($vo["name"]); ?></option><?php endforeach; endif; ?>
+											    	
+											 	</select> 
+						 					
+						 					</div>
+						 				</div>							 				
 						 				
 						 				 <div class='row'>
 				 					         <label class="col-lg-2 control-label" style="height: 34px;line-height: 34px;text-align: right;">公司地址</label>

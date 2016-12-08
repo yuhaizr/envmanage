@@ -1,0 +1,1678 @@
+[2016-11-27 09:44:59] ::1 /envmanage/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:44:59' AND endtime >= '2016-11-27 09:44:59'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:45:02] ::1 /envmanage/index.php/Home/Count/bizCount?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:45:02' AND endtime >= '2016-11-27 09:45:02'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_business` WHERE `is_valid` = '1'  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `is_valid` = '1' AND `type_id` = '1'  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 313 行.
+NOTIC: [8] Undefined variable: page D:\WWW\envmanage\Application\Runtime\Cache\Home\98401ee6f7830909d755103e568e9ff6.php 第 423 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:45:07] ::1 /envmanage/index.php/Home/scoreSet/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:45:07' AND endtime >= '2016-11-27 09:45:07'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 385 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 393 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:45:11] ::1 /envmanage/index.php/Home/Attendance/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:45:11' AND endtime >= '2016-11-27 09:45:11'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_attendance` LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zy_attendance` ORDER BY  id DESC  LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_attendance` WHERE `cuid` = '1' AND `date` = '2016-11-27' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:52:10] ::1 /envmanage/index.php/Home/scoreSet/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:52:09' AND endtime >= '2016-11-27 09:52:09'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_score_set` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zy_score_set` ORDER BY  start DESC  LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:52:16] ::1 /envmanage/index.php/Home/scoreSet/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:52:16' AND endtime >= '2016-11-27 09:52:16'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_score_set` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_score_set` ORDER BY  start DESC  LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:52:20] ::1 /envmanage/index.php/Home/Area/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:52:20' AND endtime >= '2016-11-27 09:52:20'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_user` WHERE `is_valid` = 1  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 389 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 389 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 389 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 389 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\cf1d3444deb8d5974ad0d5c9848b361c.php 第 399 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[2016-11-27 09:52:22] ::1 /envmanage/index.php/Home/scoreSet/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:52:22' AND endtime >= '2016-11-27 09:52:22'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_score_set` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_score_set` ORDER BY  start DESC  LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[2016-11-27 09:52:45] ::1 /envmanage/index.php/Home/scoreSet/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:52:45' AND endtime >= '2016-11-27 09:52:45'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 385 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 393 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[2016-11-27 09:53:16] ::1 /envmanage/index.php/Home/scoreSet/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:53:16' AND endtime >= '2016-11-27 09:53:16'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 385 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 393 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:53:19] ::1 /envmanage/index.php/Home/ScoreSet/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:53:19' AND endtime >= '2016-11-27 09:53:19'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 385 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\2883dc2b5913292443794554c1109d38.php 第 393 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:53:22] ::1 /envmanage/index.php/Home/ScoreSet/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:53:22' AND endtime >= '2016-11-27 09:53:22'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_score_set` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_score_set` ORDER BY  start DESC  LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:54:46] ::1 /envmanage/index.php/Home/BizProwled/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:54:46' AND endtime >= '2016-11-27 09:54:46'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `is_valid` = '1'  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zy_business` WHERE `is_valid` = '1'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `is_valid` = '1' AND `type_id` = '1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 378 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 400 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 400 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 409 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[2016-11-27 09:55:24] ::1 /envmanage/index.php/Home/AreaProwled/mostList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:55:24' AND endtime >= '2016-11-27 09:55:24'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `type_id` = '2'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `type_id` = '2'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_area_prowled` WHERE `prowled_obj_id` = '7' AND `is_valid` = '1' AND `score` < 60 AND (  date >= '1970-01-01'  ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_area_prowled` WHERE `prowled_obj_id` = '5' AND `is_valid` = '1' AND `score` < 60 AND (  date >= '1970-01-01'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_area_prowled` WHERE `prowled_obj_id` = '6' AND `is_valid` = '1' AND `score` < 60 AND (  date >= '1970-01-01'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 313 行.
+NOTIC: [8] Undefined variable: prowled_obj_id D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 387 行.
+NOTIC: [8] Undefined variable: prowled_obj_id D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 387 行.
+NOTIC: [8] Undefined variable: prowled_obj_id D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 387 行.
+NOTIC: [8] Undefined variable: page D:\WWW\envmanage\Application\Runtime\Cache\Home\6f0073214b049f76d1d769a2d82b789b.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:55:27] ::1 /envmanage/index.php/Home/BizProwled/mostList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:55:27' AND endtime >= '2016-11-27 09:55:27'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `is_valid` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business` WHERE `is_valid` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `is_valid` = '1' AND `type_id` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business` WHERE `is_valid` = '1'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_biz_prowled` WHERE `business_id` = '4' AND `is_valid` = '1' AND `score` < 60 AND (  date >= '1970-01-01'  ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_biz_prowled` WHERE `business_id` = '3' AND `is_valid` = '1' AND `score` < 60 AND (  date >= '1970-01-01'  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_biz_prowled` WHERE `business_id` = '5' AND `is_valid` = '1' AND `score` < 60 AND (  date >= '1970-01-01'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_biz_prowled` WHERE `business_id` = '6' AND `is_valid` = '1' AND `score` < 60 AND (  date >= '1970-01-01'  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 313 行.
+NOTIC: [8] Undefined variable: area_prowled_obj_list D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 387 行.
+NOTIC: [8] Undefined variable: page D:\WWW\envmanage\Application\Runtime\Cache\Home\ba494b03d100e8fd03188b39910419b2.php 第 441 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:55:40] ::1 /envmanage/index.php/Home/Count/areaCount?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:55:40' AND endtime >= '2016-11-27 09:55:40'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `type_id` = '2'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 313 行.
+NOTIC: [8] Undefined variable: page D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[2016-11-27 09:55:46] ::1 /envmanage/index.php/Home/Count/areaCount?searchDate=&prowled_obj_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:55:45' AND endtime >= '2016-11-27 09:55:45'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `type_id` = '2'  [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-17' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-17' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-18' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-18' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-19' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-19' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-20' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-20' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-21' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-21' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-22' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-22' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-23' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-23' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-24' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-24' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-25' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-25' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-26' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-26' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(score) AS tp_avg FROM `zy_area_prowled` WHERE `date` = '2016-11-27' AND `is_valid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `date` = '2016-11-27' AND `is_valid` = '1' AND `prowled_obj_id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 313 行.
+NOTIC: [8] Undefined variable: page D:\WWW\envmanage\Application\Runtime\Cache\Home\6a66f7798981189f29164e40e0b63e42.php 第 417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:57:24] ::1 /envmanage/index.php/Home/ScoreSet/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:57:24' AND endtime >= '2016-11-27 09:57:24'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_score_set` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_score_set` ORDER BY  start DESC  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\662aa19869d66257c61e43c9004a7b4f.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 09:58:47] ::1 /envmanage/index.php/Home/BizProwled/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:58:47' AND endtime >= '2016-11-27 09:58:47'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `is_valid` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business` WHERE `is_valid` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `is_valid` = '1' AND `type_id` = '1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 378 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 400 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 400 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 409 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\1d063ddb08030bb5d35370c36a37d6a1.php 第 444 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[2016-11-27 09:59:35] ::1 /envmanage/index.php/Home/AreaProwled/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 09:59:35' AND endtime >= '2016-11-27 09:59:35'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `type_id` = '2'  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_area_prowled` WHERE `is_valid` = '1' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zy_area_prowled` WHERE `is_valid` = '1' ORDER BY  ctime DESC  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_score_set` WHERE `is_valid` = 1  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `is_valid` = 1 AND `id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `is_valid` = 1 AND `id` = '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_prowled_obj` WHERE `is_valid` = 1 AND `id` = '7' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\7644d060ff35d7f1d0e4f18aad795653.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 10:00:43] ::1 /envmanage/index.php/Home/User/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:00:43' AND endtime >= '2016-11-27 10:00:43'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_user` WHERE `is_valid` = '1' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zy_user` WHERE `is_valid` = '1' ORDER BY  ctime DESC  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\4669a6928de0cab2b6f875b8dd826553.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 10:00:46] ::1 /envmanage/index.php/Home/User/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:00:46' AND endtime >= '2016-11-27 10:00:46'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 384 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 394 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 394 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 406 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 407 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 415 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 422 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 429 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 435 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 441 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\51314fa94d937b3291f33156c1bd5fa4.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[2016-11-27 10:00:48] ::1 /envmanage/index.php/Home/Attendance/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:00:48' AND endtime >= '2016-11-27 10:00:48'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_attendance` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zy_attendance` ORDER BY  id DESC  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_attendance` WHERE `cuid` = '1' AND `date` = '2016-11-27' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\bd90bf71d5b10e97cc3c2017681a885a.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[2016-11-27 10:40:26] ::1 /envmanage/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:40:26' AND endtime >= '2016-11-27 10:40:26'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 10:41:55] ::1 /envmanage/index.php/Home/BusinessType/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:41:55' AND endtime >= '2016-11-27 10:41:55'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\d7cda9207dda92ddd0a1cb70541c6627.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[2016-11-27 10:41:57] ::1 /envmanage/index.php/Home/BusinessType/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:41:57' AND endtime >= '2016-11-27 10:41:57'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_business_type` WHERE `is_valid` = '1' LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `is_valid` = '1' ORDER BY  ctime DESC  LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\85871bea6d6bd0c846059f4bac96be8e.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[2016-11-27 10:41:59] ::1 /envmanage/index.php/Home/Business/add?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:41:59' AND endtime >= '2016-11-27 10:41:59'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `is_valid` = '1'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area` WHERE `is_valid` = '1'  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 313 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 377 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 387 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 399 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 399 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 409 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 416 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 422 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 428 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 434 行.
+NOTIC: [8] Undefined variable: info D:\WWW\envmanage\Application\Runtime\Cache\Home\973c92b4e33ef607bd79e4dd8f488ec1.php 第 451 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 10:42:00] ::1 /envmanage/index.php/Home/Business/showList?type=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:42:00' AND endtime >= '2016-11-27 10:42:00'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `is_valid` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area` WHERE `is_valid` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zy_business` WHERE `is_valid` = '1' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zy_business` WHERE `is_valid` = '1' ORDER BY  ctime DESC  LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `id` = '5' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zy_area` WHERE `id` = '2' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_business_type` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_area` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 173 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\c223e82ed4e9f05e3fdd412f88e6f1ab.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[2016-11-27 10:42:15] ::1 /envmanage/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\FlashBehaviors [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `zy_notice` WHERE `is_valid` = '1' AND `is_show` = '1' AND (  starttime <='2016-11-27 10:42:15' AND endtime >= '2016-11-27 10:42:15'  ) ORDER BY id DESC LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_title D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 6 行.
+NOTIC: [8] Undefined variable: page_description D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 8 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+NOTIC: [8] Undefined variable: task_num D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 169 行.
+NOTIC: [8] Undefined variable: taskList D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: SECOND_NOW_MENU D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Undefined variable: NOW_PATH D:\WWW\envmanage\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 313 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
